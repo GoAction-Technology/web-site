@@ -1,0 +1,17 @@
+.test {
+  transform: rotateY(-45deg) translateZ(0);
+  transform-origin: left center;
+  transition: color .2s ease-in-out,transform .5s;
+  color: #ffffff00;
+  -webkit-text-stroke: 2px #fff;
+  /*text-shadow: 1px 1px #ffffff , 1.5px 1.5px #000;*/
+  text-stroke: 2px #000;
+  text-align: left;
+  font-weight: bold;
+}
+
+.test:hover {
+  transform: rotateY(0deg) translateZ(0);
+  color: #ffffff;
+}
+

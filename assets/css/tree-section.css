@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+  .greenbadgeforbigparagraph {
+    /*border-bottom: 4px solid #22955c;*/
+    /*padding-bottom: 5px;*/
+    font-family: 'Aquire';
+    padding: 7px 12px;
+    background-color: rgba(34,149,92,0.17);
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: #21965a;
+    border-width: 1px;
+    color: #21965a;
+    white-space: nowrap;
+    font-weight: 100;
+    /*font-weight: bold;*/
+  }
+}
+
+@media (min-width: 768px) {
+  .greenbadgeforbigparagraph {
+    /*border-bottom: 4px solid #22955c;*/
+    /*padding-bottom: 5px;*/
+    font-family: 'Aquire';
+    padding: 11px 20px;
+    background-color: rgba(34,149,92,0.17);
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: #21965a;
+    border-width: 1px;
+    color: #21965a;
+    white-space: nowrap;
+    font-weight: 100;
+    font-weight: bold;
+  }
+}
+
+.treeimage {
+  width: 9rem;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .treeimage {
+    margin-bottom: -3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .my100section {
+    height: 100vh;
+  }
+}
+

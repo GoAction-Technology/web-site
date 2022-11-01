@@ -1,0 +1,168 @@
+@media (max-width: 576px) {
+  img, svg {
+    vertical-align: middle;
+  }
+}
+
+.anasayfakisim {
+  margin-bottom: 4rem;
+}
+
+.features .col {
+  margin-bottom: 2rem;
+  /*padding: 1rem;*/
+  /*scrollbar-width: hidden;*/
+}
+
+.features .baslik {
+  text-align: left;
+  font-family: 'Aquire';
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  /*min-height: 62px;*/
+}
+
+.features p {
+  text-align: left;
+  font-size: 1.1rem;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-weight: 200;
+}
+
+.anasayfakisim .aciklama {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  color: #3c3e4d;
+}
+
+@media (min-width: 768px) {
+  .anasayfakisim .aciklama {
+    max-width: 60%;
+  }
+}
+
+* {
+}
+
+img, svg {
+  vertical-align: middle;
+}
+
+* {
+  /*outline: none;*/
+  /*padding: 0;*/
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  outline: none;
+  padding: 0;
+}
+
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  height: 50vh;
+  border-width: 2px 0 2px 0;
+  border-style: solid;
+  border-color: #21965a;
+}
+
+.myinputt {
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  background-clip: padding-box;
+  background-color: rgba(34,149,92,0.17);
+  border: 1px #21965a solid;
+  color: #fff;
+  font-family: 'Aquire';
+}
+
+.myinputt::placeholder {
+  color: #fff;
+}
+
+.mybutton {
+  border-radius: 0;
+  background-color: rgba(34,149,92,0.17);
+  border-color: #21965a;
+  color: #21965a;
+  font-family: 'Aquire';
+}
+
+.mybutton:hover {
+  border-radius: 0;
+  background-color: #21965a;
+  border-color: #21965a;
+  color: #ffffff;
+  font-family: 'Aquire';
+  box-shadow: 0px 0px 20px rgba(33,150,90,0.42);
+}
+
+.greenshadow-box {
+  box-shadow: 0px 0px 20px rgba(33,150,90,0.42);
+}
+
+.mycardoverlay {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: var(--bs-card-img-overlay-padding);
+  border-radius: 2rem;
+  background: linear-gradient(rgba(0,0,0,0) 0%, black 100%);
+  color: #fff;
+  font-family: 'Aquire';
+  padding-bottom: 0;
+}
+
+.mycard {
+  border-width: 0;
+  background-image: url("../../assets/img/area3.svg");
+  background-color: rgba(0,0,0,0.81);
+  border-radius: 2rem;
+}
+
+.carousel .mycard {
+  border-width: 0;
+  background-image: url("../../assets/img/area3.svg");
+  background-color: rgba(0,0,0,0.81);
+  border-radius: 1rem;
+  background-size: 200%;
+}
+
+.mycard .card-img {
+  filter: grayscale(100%);
+  border-radius: 2rem;
+}
+
+.carousel .mycard .card-img {
+  filter: grayscale(100%);
+  border-radius: 1rem;
+}
+
+@media (min-width: 768px) {
+  .mobildegoster {
+    display: none!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .masaustundegoster {
+    display: none;
+  }
+}
+
