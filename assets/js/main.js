@@ -1,98 +1,47 @@
-(function (win, doc) {
+function changeHeight() {
+document.getElementById('mymenu').style.height = "100%";
 
-  "use strict";
+document.getElementById('birincisicim').style.height = "100vh";
+document.getElementById('ikincisicim').style.height = "100vh";
+document.getElementById('ucuncusicim').style.height = "100vh";
+document.getElementById('dorduncusicim').style.height = "100vh";
+document.getElementById('menuwrap').style.transform = "translateX(0%)";
 
-  class Action {
-    constructor(obj) {
-      this.PREFIX = obj.prefix;
-      this.LENGTH = obj.length;
-      this.MAX_INDEX = this.LENGTH - 1;
-      this.index = 0;
-      this.timer = null;
-      this.isDoingFlag = false;
-    }
-
-    stop() {
-      clearTimeout(this.timer);
-      this.index = 0;
-      this.isDoingFlag = false;
-    }
-
-    start() {
-      this.stop();
-      this.isDoingFlag = true;
-    }
-
-    next() {
-      this.index = ++this.index % this.LENGTH;
-    }
-
-    getKlassName() {
-      return this.PREFIX + this.index;
-    }
-
-    isDoing() {
-      return this.isDoingFlag;
-    }}
+setTimeout(function(){ document.getElementById('menulist').style.opacity = "1"; }, 500);
 
 
-  class Runner {
-    constructor(id) {
-      this.INTERVAL = 60;
-      this.actionRun = new Action({
-        prefix: "r",
-        length: 18 });
+document.getElementById('mydotsmother').style.opacity = "0";
+document.getElementById('menuclose').style.right = "0rem";
+document.getElementById('menuclose').style.opacity = "1";
 
-      this.actionJump = new Action({
-        prefix: "j",
-        length: 17 });
-
-      this.actionSpecial = new Action({
-        prefix: "s",
-        length: 1 });
-
-      this.elm = doc.getElementById(id);
-    }
-
-    start() {
-      this.actionRun.start();
-      this.actionRun.timer = setInterval(this.step.bind(this), this.INTERVAL);
-    }
-
-    jump() {
-      if (this.actionRun.isDoing()) {
-        this.actionRun.stop();
-        this.actionJump.start();
-        this.actionJump.timer = setInterval(this.flow.bind(this), this.INTERVAL);
-      }
-    }
-
-    step() {
-      this.actionRun.next();
-      this.elm.className = this.actionRun.getKlassName();
-    }
-
-    flow() {
-      if (this.actionJump.index < this.actionJump.MAX_INDEX) {
-        this.actionJump.next();
-        this.elm.className = this.actionJump.getKlassName();
-      } else {
-        this.actionJump.stop();
-        this.start();
-      }
-    }}
+document.getElementById('menuicerik').style.display = "block";
 
 
-  main();
 
-  function main() {
-    var runner = new Runner("stage");
 
-    runner.start();
+}
+function closeMenu() {
+document.getElementById('mymenu').style.height = "0%";
 
-    doc.addEventListener("click", function () {
-      runner.jump();
-    }, false);
-  }
 
-})(this, document);
+document.getElementById('menulist').style.opacity = "0";
+setTimeout(function(){ document.getElementById('menuwrap').style.transform = "translateX(-100%)"; }, 500);
+document.getElementById('birincisicim').style.height = "0%";
+document.getElementById('ikincisicim').style.height = "0%";
+document.getElementById('ucuncusicim').style.height = "0%";
+document.getElementById('dorduncusicim').style.height = "0%";
+document.getElementById('mydotsmother').style.opacity = "1";
+document.getElementById('menuclose').style.right = "-50%";
+document.getElementById('menuclose').style.opacity = "0";
+document.getElementById('menuicerik').style.display = "none";
+document.getElementById('menuiceriknew').style.height = "0";
+
+
+}
+
+
+/*
+$('#mymenu
+  ').click(function(){
+    $(.mystringtheory).animate({height:'300'})
+})*/
