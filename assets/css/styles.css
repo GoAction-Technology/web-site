@@ -480,3 +480,7 @@ body {
   }
 }
 
+.brandsdiv img {
+  max-width: 9rem;
+}
+
