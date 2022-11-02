@@ -433,6 +433,7 @@ body {
 @media (max-width: 768px) {
   .appsection .row {
     margin-bottom: 2rem;
+    /*overflow-x: hidden;*/
   }
 }
 
@@ -485,6 +486,23 @@ body {
 }
 
 .overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  .degisikrow .col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .degisikrow {
+    margin: 0;
+  }
+}
+
+.demo-text {
   overflow-x: hidden;
 }
 

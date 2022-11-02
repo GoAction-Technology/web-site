@@ -40,8 +40,8 @@ reduce carbon emissions to the nature.">
 </head>
 
 <body style="overflow-x: hidden;">
-    <header style="min-height: 100vh;/*background-image: url(&quot;assets/img/area.svg&quot;);*/background-size: cover;background-repeat: no-repeat;background-position: top center;position: relative;"><img src="assets/img/gradball.svg" style="position: absolute;left: 0;top: 0;transform: translateX(-50%) translateY(-50%);opacity: 0.40;z-index: -9999999;">
-        <div class="container">
+    <header style="min-height: 100vh;/*background-image: url(&quot;assets/img/area.svg&quot;);*/background-size: cover;background-repeat: no-repeat;background-position: top center;position: relative;"><img src="assets/img/gradball.svg" style="position: absolute;left: 0;top: 0;transform: translateX(-50%) translateY(-50%);opacity: 0.40;z-index: -9999999;overflow-x: hidden;">
+        <div class="container" style="overflow-x: hidden;">
             <nav class="navbar navbar-light navbar-expand py-3" style="justify-content: center;text-align: center;position: relative;display: grid;">
                 <div class="container"><a class="navbar-brand align-items-center" href="index.html"><img src="assets/img/Main-Logo-Horizontal-Light.svg"></a><a style="position: fixed;right: 1.5rem;top: 1.5rem;transform: scale(0.75);width: 50px;height: 50px;z-index: 999;cursor: pointer;" onclick="changeHeight()">
                         <div id="mydotsmother" class="mydotsmother">
@@ -86,7 +86,7 @@ reduce carbon emissions to the nature.">
                 <div id="scroll-wrapper-inner"></div><div id="scroll-title">Scroll</div>
                 <div id="scroll-down"></div>
             </div>
-        </div><img width="100" height="80" src="assets/img/area.svg" style="width: 100vw;height: initial;position: absolute;bottom: 0;left: 0;z-index: -2;border-bottom: .1px solid #21965a;">
+        </div><img width="100" height="80" src="assets/img/area.svg" style="width: 100%;height: initial;position: absolute;bottom: 0;left: 0;z-index: -2;border-bottom: .1px solid #21965a;">
         <div class="soldakiiconlar masaustundegoster"><a href="https://www.instagram.com/goactiontechnology/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-instagram">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <rect x="4" y="4" width="16" height="16" rx="4"></rect>
@@ -210,7 +210,7 @@ reduce carbon emissions to the nature.">
         <div class="container overflow-x-hidden">
             <div data-aos="fade" data-aos-duration="1000" class="teambaslik" style="overflow-x: hidden;">
                 <h1 class="display-3 text-center text greenshadow" style="font-family: 'Aquire';position: absolute;bottom: 50%;left: 50%;transform: translateX(-50%) translateY(50%);z-index: 9;font-weight: bold;white-space: nowrap;">GoACTION App</h1>
-                <h1 class="text-center" style="font-family: 'Aquire';color: #222222;position: absolute;bottom: 50%;left: 50%;transform: translateX(-50%) translateY(50%);font-size: calc(1.625rem + 6.5vw);white-space: nowrap;font-weight: 100;max-width: 100VW;overflow-x: hidden;">Eveything is Here</h1>
+                <h1 class="text-center" style="font-family: 'Aquire';color: #222222;position: absolute;bottom: 50%;left: 50%;transform: translateX(-50%) translateY(50%);font-size: calc(1.625rem + 6.5vw);white-space: nowrap;font-weight: 100;/*max-width: 100%;*/overflow-x: hidden;">Eveything is Here</h1>
             </div>
         </div>
         <div class="container over">
@@ -288,7 +288,7 @@ reduce carbon emissions to the nature.">
             </div>
         </div>
         <div class="container position-relative">
-            <div class="row row-cols-1 row-cols-lg-2">
+            <div class="row row-cols-1 row-cols-lg-2 degisikrow">
                 <div class="col stickincolu" style="position: relative;">
                     <div style="position: sticky;top: 50%;position: -webkit-sticky;/*transform: translateY(calc(-100% - 2rem));*/padding: 0 1rem;">
                         <p data-aos="fade-right" data-aos-duration="750" class="text h2" style="font-family: 'Aquire';font-weight: 100;">They are<br>Like the sun and the moon,<br>Like the river and the sea,<br>Like human and technology<br><br><span class="h2 fw-bold greenshadow">Here is gat and eco.</span></p>
@@ -319,7 +319,7 @@ reduce carbon emissions to the nature.">
                         </div>
                         <div class="col">
                             <div style="justify-content: start;display: grid;">
-                                <h1 data-aos="fade-left" data-aos-duration="550" class="text-center text greenshadow fw-bold" style="font-family: 'Aquire';justify-content: start;margin-bottom: 1rem;display: flex;">GOACTION TOKEN<img src="assets/img/gatlogo.svg" style="max-width: 3rem;margin-left: 1rem;"></h1>
+                                <h1 data-aos="fade-left" data-aos-duration="550" class="text-start text greenshadow fw-bold" style="font-family: 'Aquire';justify-content: start;margin-bottom: 1rem;display: flex;">GOACTION TOKEN<img src="assets/img/gatlogo.svg" style="max-width: 3rem;margin-left: 1rem;"></h1>
                                 <ul class="list-unstyled text-start text-white tokenslist" data-aos="fade-left" data-aos-duration="750" style="font-family: 'Aquire';font-weight: 100;gap: .5rem;display: grid;">
                                     <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor" class="me-2">
                                             <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
@@ -543,11 +543,13 @@ reduce carbon emissions to the nature.">
         </div>
     </section>
     <section id="faq" class="mt-5">
-        <div class="container">
+        <div class="container overflow-x-hidden">
             <div data-aos="fade" data-aos-duration="1000" class="teambaslik">
                 <h1 class="display-3 text-center text greenshadow" style="font-family: 'Aquire';position: absolute;bottom: 50%;left: 50%;transform: translateX(-50%) translateY(50%);z-index: 9;font-weight: bold;">QUESTIONS</h1>
-                <h1 class="text-center" style="font-family: 'Aquire';color: #222222;position: absolute;bottom: 50%;left: 50%;transform: translateX(-50%) translateY(50%);font-size: calc(1.625rem + 6.5vw);white-space: nowrap;font-weight: 100;overflow-x: hidden;max-width: 100VW;">FREQUENTLY ASKED</h1>
+                <h1 class="text-center" style="font-family: 'Aquire';color: #222222;position: absolute;bottom: 50%;left: 50%;transform: translateX(-50%) translateY(50%);font-size: calc(1.625rem + 6.5vw);white-space: nowrap;font-weight: 100;overflow-x: hidden;/*max-width: 100%;*/">FREQUENTLY ASKED</h1>
             </div>
+        </div>
+        <div class="container">
             <div class="row masaustundegoster">
                 <div class="col">
                     <div class="accordion" role="tablist" id="accordion-1">
