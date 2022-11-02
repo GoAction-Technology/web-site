@@ -223,3 +223,9 @@
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .appsecparagraph, .appsecminiheading, .appsecheading {
+    overflow-x: hidden;
+  }
+}
+
