@@ -167,7 +167,7 @@
 
 @media (max-width: 768px) {
   .text.headertext {
-    font-size: 2.3rem;
+    font-size: 2.7rem;
     word-wrap: break-word!important;
     word-break: break-word!important;
     padding-left: 1rem;
@@ -227,5 +227,9 @@
   .appsecparagraph, .appsecminiheading, .appsecheading {
     overflow-x: hidden;
   }
+}
+
+.menulist li:last-child a h1 {
+  line-height: 1.3rem;
 }
 
