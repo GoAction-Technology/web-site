@@ -484,3 +484,7 @@ body {
   max-width: 9rem;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
