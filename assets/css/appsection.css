@@ -199,7 +199,8 @@
 
 .accordion-body p {
   font-family: 'Montserrat';
-  color: #21965a;
+  color: #ffffff;
+  font-weight: 200;
 }
 
 .tokensrow .col:not(:last-child) {
@@ -213,10 +214,8 @@
 
 .socialiconlist li a {
   text-decoration: none;
-  gap: 4px;
   padding: .5rem .7rem;
-  background-color: rgba(0,30,14,0.81);
-  color: #21965a;
+  background: linear-gradient(118deg, rgba(33,150,90,0.1), rgba(0,178,194,0.2));
   font-family: 'Aquire';
   border-radius: 0;
   display: flex;
@@ -230,6 +229,59 @@
 }
 
 .menulist li:last-child a h1 {
-  line-height: 1.3rem;
+  line-height: 2rem;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+@media (min-width: 768px) {
+  .socialiconlist svg {
+    margin-right: .5rem;
+  }
+}
+
+.socialiconlist li a span {
+  background: linear-gradient(to right, #21965a 0%, #00b2c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .socialiconlist svg {
+    color: #1d9d73;
+  }
+}
+
+@media (max-width: 768px) {
+  .socialiconlist svg {
+    color: #21965a;
+    /*background: linear-gradient(to right, #21965a 0%, #00b2c2 100%);*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+  }
+}
+
+.mybutton span {
+  background: linear-gradient(to right, #21965a 0%, #00b2c2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mybutton:hover span {
+  color: #fff;
+  background: none;
+  -webkit-text-fill-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .socialiconlist li a {
+    font-size: 1.4rem;
+    border-radius: 26px;
+    padding: 11px!important;
+  }
 }
 

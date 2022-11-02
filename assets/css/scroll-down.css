@@ -25,13 +25,13 @@
   display: block;
   text-transform: uppercase;
   color: #ffffff;
-  font-family: 'Montserrat';
+  font-family: 'Aquire';
   font-size: 14px;
   font-weight: bold;
-  letter-spacing: 0.4em;
+  letter-spacing: 1px;
   text-align: center;
   transform: rotate(90deg);
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 
 #scroll-down::before {

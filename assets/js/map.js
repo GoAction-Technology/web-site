@@ -36,7 +36,7 @@
                 'type': 'fill-extrusion',
                 'minzoom': 11,
                 'paint': {
-                    'fill-extrusion-color': '#004622',
+                    'fill-extrusion-color': '#013136',
 
                     'fill-extrusion-height': [
                         'interpolate',

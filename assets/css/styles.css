@@ -281,7 +281,7 @@ body {
 
 .accordion-button:not(.collapsed) {
   color: var(--bs-white);
-  background-color: #21965a;
+  background-color: #21965a00;
   box-shadow: 0px 0px 0px;
 }
 
@@ -292,7 +292,7 @@ body {
   width: 100%;
   padding: 1.5rem var(--bs-accordion-btn-padding-x);
   font-size: 1rem;
-  color: #21965a;
+  color: #ffffff;
   text-align: left;
   background: rgba(255,255,255,0.04);
   border: 0;
@@ -304,8 +304,8 @@ body {
 
 .accordion-item {
   color: #ffffff;
-  background-color: rgba(0,30,14,0.81);
-  border: 1px solid #21965a;
+  background: linear-gradient(to right, rgba(33,150,90,0.2) 0%, rgba(0,178,194,0.3) 100%);
+  border: .5px solid #21965a;
   margin-bottom: 1rem;
   /*box-shadow: 0px 0px 20px rgba(33,150,90,0.42);*/
 }

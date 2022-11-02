@@ -85,10 +85,11 @@ img, svg {
   padding: .375rem .75rem;
   font-size: 1rem;
   background-clip: padding-box;
-  background-color: rgba(34,149,92,0.17);
+  background: linear-gradient(118deg, rgba(0,178,194,0.3), rgba(33,150,90,0.25));
   border: 1px #21965a solid;
-  color: #fff;
+  color: #fff!important;
   font-family: 'Aquire';
+  opacity: 1;
 }
 
 .myinputt::placeholder {
@@ -97,15 +98,15 @@ img, svg {
 
 .mybutton {
   border-radius: 0;
-  background-color: rgba(34,149,92,0.17);
+  background: linear-gradient(118deg, rgba(33,150,90,0.25), rgba(0,178,194,0.3));
   border-color: #21965a;
-  color: #21965a;
+  color: #ffffff;
   font-family: 'Aquire';
 }
 
 .mybutton:hover {
   border-radius: 0;
-  background-color: #21965a;
+  background: linear-gradient(to right, rgba(33,150,90,0.7) 0%, rgba(0,178,194,0.7) 100%);
   border-color: #21965a;
   color: #ffffff;
   font-family: 'Aquire';
@@ -162,7 +163,7 @@ img, svg {
 
 @media (max-width: 768px) {
   .masaustundegoster {
-    display: none;
+    display: none!important;
   }
 }
 
