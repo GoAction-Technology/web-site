@@ -671,9 +671,9 @@ reduce carbon emissions to the nature.">
                     <h2 class="mb-2 greenshadow text" style="font-family: 'Aquire';"><strong>Subscribe to our newsletter</strong></h2>
                     <p class="mb-0" style="font-family: 'Montserrat';color: #fff;">Get news from us</p>
                 </div>
-                <form class="d-flex justify-content-center flex-wrap my-2" data-bss-recipient="c3a294b8be098828031f764cbfb5a8aa">
-                    <div class="my-2"><input type="email" class="myinputt" name="email" placeholder="Your Email"></div>
-                    <div class="my-2"><button class="btn ms-sm-2 mybutton" type="submit">SUBSCRIBE</button></div>
+                <form class="d-flex justify-content-center flex-wrap my-2" method="post">
+                    <div class="my-2"><input type="email" id="email" class="myinputt" name="email" placeholder="Your Email"></div>
+                    <div class="my-2"><button class="btn ms-sm-2 mybutton" id="submit" type="submit" name="submit">SUBSCRIBE</button></div>
                 </form>
             </div>
             <div></div>
@@ -760,13 +760,13 @@ submitButton.addEventListener("click", (e) => {
 
 
   //Get Form Values
-  let name = document.getElementById('name').value
+  let email = document.getElementById('email').value
 
   //Save Form Data To Firebase
   db.doc().set({
     email: email,
   }).then( () => {
-    console.log("Data saved");
+    console.log("Data saved")
   }).catch((error) => {
     console.log(error)
   })
@@ -779,7 +779,6 @@ submitButton.addEventListener("click", (e) => {
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/aos.min.js"></script>
-    <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
