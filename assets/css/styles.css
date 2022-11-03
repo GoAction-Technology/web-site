@@ -454,7 +454,7 @@ body {
 }
 
 .socialiconlist {
-  justify-content: space-evenly;
+  justify-content: space-between;
   display: flex;
 }
 
