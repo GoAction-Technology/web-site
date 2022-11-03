@@ -25,6 +25,8 @@
 
 .teambaslik {
   position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 @media (max-width: 768px) {
