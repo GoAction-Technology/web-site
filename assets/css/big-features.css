@@ -145,9 +145,18 @@ img, svg {
   background-size: 200%;
 }
 
-.mycard .card-img {
-  filter: grayscale(100%);
-  border-radius: 2rem;
+@media (min-width: 768px) {
+  .mycard .card-img {
+    filter: grayscale(100%);
+    border-radius: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mycard .card-img {
+    filter: grayscale(100%);
+    border-radius: 1rem;
+  }
 }
 
 .carousel .mycard .card-img {

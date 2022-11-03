@@ -506,3 +506,51 @@ body {
   overflow-x: hidden;
 }
 
+.linkedinlink {
+  display: inline-flex;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: .5rem;
+  background: rgba(255,255,255,0.77);
+  color: #0077b5;
+  border-radius: 8px;
+}
+
+.carousel .mycard .linkedinlink {
+  font-size: .7rem;
+  padding: .4rem;
+  top: .5rem;
+}
+
+.carousel .mycard .linkedinlink.saga {
+  right: .5rem;
+  left: auto;
+}
+
+.carousel .mycard .linkedinlink.sola {
+  left: .5rem;
+  right: auto;
+}
+
+@media (max-width: 768px) {
+  .row .linkedinlink {
+    top: .5rem;
+    left: .5rem;
+    font-size: .8rem;
+    padding: .4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mycard {
+    border-radius: 1rem!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .row .mycardoverlay {
+    border-radius: 1rem;
+  }
+}
+
