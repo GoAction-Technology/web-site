@@ -5,7 +5,7 @@
 
     const map = new mapboxgl.Map({
 
-        style: 'mapbox://styles/hevalnergiz/cl9uatjwt001015s6pq24xqi7',
+        style: 'mapbox://styles/hevalnergiz/cl9uatjwt001015s6pq24xqi7?optimize=true',
         center: [27.139435, 38.429422],
         zoom: 16,
         pitch: 75,
