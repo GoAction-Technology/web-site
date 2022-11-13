@@ -34,19 +34,6 @@
   }
 }
 
-.treeimage {
-  width: 9rem;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media (min-width: 768px) {
-  .treeimage {
-    margin-bottom: -3rem;
-  }
-}
-
 @media (min-width: 768px) {
   .my100section {
     height: 100vh;

@@ -30,29 +30,8 @@
   font-weight: 200;
 }
 
-.anasayfakisim .aciklama {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 1rem;
-  color: #3c3e4d;
-}
-
-@media (min-width: 768px) {
-  .anasayfakisim .aciklama {
-    max-width: 60%;
-  }
-}
-
-* {
-}
-
 img, svg {
   vertical-align: middle;
-}
-
-* {
-  /*outline: none;*/
-  /*padding: 0;*/
 }
 
 *, *::before, *::after {
@@ -90,10 +69,6 @@ img, svg {
   color: #fff!important;
   font-family: 'Aquire';
   opacity: 1;
-}
-
-.myinputt::placeholder {
-  color: #fff;
 }
 
 .mybutton {

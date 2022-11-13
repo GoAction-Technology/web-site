@@ -31,10 +31,6 @@
   display: flex;
 }
 
-.demo-gallery:not(.last) {
-  padding-bottom: 1rem;
-}
-
 .demo-text .textt {
   font-size: clamp(4rem, 10vw, 16rem);
   line-height: 1;

@@ -267,18 +267,6 @@
   }
 }
 
-.mybutton span {
-  background: linear-gradient(to right, #21965a 0%, #00b2c2 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.mybutton:hover span {
-  color: #fff;
-  background: none;
-  -webkit-text-fill-color: #fff;
-}
-
 @media (max-width: 768px) {
   .socialiconlist li a {
     font-size: 1.4rem;
