@@ -7,7 +7,7 @@ const updateProgress = (instance) =>
 
 const showDemo = () => {
   document.body.style.overflowX = 'hidden';
-  document.scrollingElement.scrollTo(0, 0);
+  /*document.scrollingElement.scrollTo(0, 0);*/
   gsap.to(document.querySelector('.loader'), { autoAlpha: 0 });
   
   gsap.utils.toArray('section').forEach((section, index) => {
