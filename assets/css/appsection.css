@@ -286,3 +286,30 @@
   border-style: solid;
 }
 
+.black-gradient-top {
+  height: 30vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(black, rgba(0,0,0,0));
+  z-index: 2;
+}
+
+.black-gradient-bottom {
+  height: 20vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0,0), black);
+  z-index: 2;
+}
+
+.black-gradient {
+  opacity: 0;
+  transition-duration: .2s;
+}
+
+.black-gradient.scrolled {
+  opacity: 1;
+}
+
