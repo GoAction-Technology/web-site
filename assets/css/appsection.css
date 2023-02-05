@@ -387,3 +387,28 @@
   font-weight: bold;
 }
 
+@media (max-width: 768px) {
+  .partners-row img, .partners-row svg {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .partners-row img, .partners-row svg {
+    width: 75%;
+    min-width: 75%;
+    max-width: 75%;
+  }
+}
+
+.partners-row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.partners-row img, .partners-row svg {
+  margin: auto!important;
+}
+
