@@ -1,0 +1,40 @@
+.tokenomic-item.seed, .tokenomic-item.seed .tokenomic-p:first-child span:first-child span {
+  border-color: var(--seed);
+  color: var(--seed);
+}
+
+.tokenomic-item.private, .tokenomic-item.private .tokenomic-p:first-child span:first-child span {
+  border-color: var(--private);
+  color: var(--private);
+}
+
+.tokenomic-item.public, .tokenomic-item.public .tokenomic-p:first-child span:first-child span {
+  border-color: var(--public);
+  color: var(--public);
+}
+
+.tokenomic-item.strategic, .tokenomic-item.strategic .tokenomic-p:first-child span:first-child span {
+  border-color: var(--strategic);
+  color: var(--strategic);
+}
+
+.tokenomic-item.team, .tokenomic-item.team .tokenomic-p:first-child span:first-child span {
+  border-color: var(--team);
+  color: var(--team);
+}
+
+.tokenomic-item.marketing, .tokenomic-item.marketing .tokenomic-p:first-child span:first-child span {
+  border-color: var(--marketing);
+  color: var(--marketing);
+}
+
+.tokenomic-item.community, .tokenomic-item.community .tokenomic-p:first-child span:first-child span {
+  border-color: var(--community);
+  color: var(--community);
+}
+
+.tokenomic-item.liqudity, .tokenomic-item.liqudity .tokenomic-p:first-child span:first-child span {
+  border-color: var(--liqudity);
+  color: var(--liqudity);
+}
+

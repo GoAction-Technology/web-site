@@ -6,10 +6,10 @@
     const map = new mapboxgl.Map({
 
         style: 'mapbox://styles/hevalnergiz/cl9uatjwt001015s6pq24xqi7',
-        center: [27.139435, 38.429422],
-        zoom: 16,
-        pitch: 75,
-        bearing: 0,
+        center: [-73.964521, 40.780488 ],
+        zoom: 15.5,
+        pitch: 60,
+        bearing: 300,
         container: 'map',
         antialias: true
     });
@@ -26,7 +26,7 @@
 'tileSize': 512,
 'maxzoom': 19
 });
-        map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.9 });
+        map.setTerrain({ 'source': 'mapbox-dem', 'exaggeration': 1.0 });
         map.addLayer(
             {
                 'id': 'add-3d-buildings',
@@ -42,21 +42,21 @@
                         'interpolate',
                         ['linear'],
                         ['zoom'],
-                        11,
+                        9,
                         0,
-                        11.05,
+                        9.05,
                         ['get', 'height']
                     ],
                     'fill-extrusion-base': [
                         'interpolate',
                         ['linear'],
                         ['zoom'],
-                        15,
+                        9,
                         0,
-                        15.05,
+                        9.05,
                         ['get', 'min_height']
                     ],
-                    'fill-extrusion-opacity': 0.6
+                    'fill-extrusion-opacity': 0.9
                 }
             },
             labelLayerId

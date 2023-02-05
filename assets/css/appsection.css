@@ -1,5 +1,4 @@
 .rotating3 {
-  -webkit-animation: rotatingg 4s linear infinite;
   -moz-animation: rotatingg 4s linear infinite;
   -ms-animation: rotatingg 4s linear infinite;
   -o-animation: rotatingg 2s linear infinite;
@@ -311,5 +310,80 @@
 
 .black-gradient.scrolled {
   opacity: 1;
+}
+
+.tokenomic-detail-col {
+  color: #fff;
+  font-family: 'Montserrat';
+}
+
+.tokenomic-p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  font-weight: lighter;
+  color: #fff;
+  align-items: center;
+}
+
+.tokenomic-category-name {
+  display: flex;
+  gap: .5rem;
+  font-weight: 300;
+}
+
+.tokenomic-item {
+  padding: 1rem;
+  background-color: rgba(255,255,255,0.1);
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 0px 0px 0px 6px;
+  transition-duration: .2s;
+  width: 100%;
+}
+
+.tokenomic-item-inner-div {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.tokenomic-detailed-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.tokenomic-price-span {
+  display: flex;
+  gap: .5rem;
+}
+
+.tokenomic-chart {
+  /*position: sticky;*/
+  /*top: 1rem;*/
+}
+
+.tokenomic-item:hover {
+  transform: scale(1.05);
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.tokenomic-ite {
+}
+
+.tokenomic-p > span:last-child {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+
+.tokenomic-item, .tokenomic-item .tokenomic-p:first-child span:first-child span {
+}
+
+.tokenomic-category-name span {
+  font-weight: bold;
 }
 

@@ -1,0 +1,56 @@
+img.articlecover {
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin-bottom: 1rem;
+  object-fit: cover;
+  /*border-radius: 2rem 2rem 2rem .5rem;*/
+  /*border-radius: 0;*/
+  border-radius: 1rem;
+}
+
+.articles-row .card .card-body {
+  padding: 0;
+}
+
+.articles-row .card {
+  border: none;
+  background: none;
+  color: #fff;
+}
+
+.read-article-link {
+  color: #0dacaa;
+  font-family: 'Product Sans';
+}
+
+.card-text {
+  color: #a6a6a6;
+}
+
+.card-title {
+  font-family: 'Aquire';
+  font-weight: 800;
+  color: #fff;
+}
+
+.article-mother-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.article-mother-link:hover {
+  color: #393d40;
+}
+
+.read-article-link:hover {
+  color: #0dacaa;
+}
+
+.article-card:hover .card-title {
+  text-decoration: underline;
+}
+
+.articles-row {
+  margin-bottom: 3rem;
+}
+
