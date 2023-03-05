@@ -545,3 +545,17 @@ body {
   margin-right: 1.5rem;
 }
 
+.socialiconlist li a:hover {
+  box-shadow: 0px 0px 20px rgba(33,150,90,0.42);
+  transform: scale(1.1);
+}
+
+.socialiconlist li a:hover span, .socialiconlist li a:hover svg {
+  color: #fff;
+  -webkit-text-fill-color: #fff;
+}
+
+.socialiconlist li a span, .socialiconlist li a svg {
+  transition-duration: .2s;
+}
+

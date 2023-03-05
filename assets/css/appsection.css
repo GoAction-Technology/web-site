@@ -221,6 +221,7 @@
   border-radius: 0;
   display: flex;
   align-items: center;
+  transition-duration: .2s;
 }
 
 @media (max-width: 768px) {
@@ -410,5 +411,32 @@
 
 .partners-row img, .partners-row svg {
   margin: auto!important;
+}
+
+.aquire {
+  font-family: 'Aquire';
+}
+
+.accordion-body .aquire {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.footer-logo {
+  width: 10rem;
+}
+
+footer h3 {
+  font-family: 'Aquire';
+}
+
+footer a {
+  text-decoration: none;
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
