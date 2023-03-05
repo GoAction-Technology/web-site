@@ -231,7 +231,7 @@
 }
 
 .menulist li:last-child a h1 {
-  line-height: 2rem;
+  /*line-height: 2rem;*/
 }
 
 .overflow-y-hidden {
