@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkboldly=self.webpackChunkboldly||[]).push([[753],{753:function(s,e,f){s.exports=f.p+"static/media/do-things-surpass-your-life.97f8e0945b9a77f6f00c.md"}}]);

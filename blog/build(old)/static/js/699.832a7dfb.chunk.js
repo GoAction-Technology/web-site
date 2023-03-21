@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkboldly=self.webpackChunkboldly||[]).push([[699],{699:function(e,s,f){e.exports=f.p+"static/media/home-design-for-small-spaces.df24f64f440bcefd6426.md"}}]);

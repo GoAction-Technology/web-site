@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../../styles/explainers.css";
-import data from "../../database/explainers/Ex1.json";
+import { data } from "../../database/explainers/Ex1.json";
 import Progress_bar from "./ProgressBar";
 import forwardArrow from '../../images/forwardArrow.svg'
 import backwardArrow from '../../images/backwardArrow.svg'

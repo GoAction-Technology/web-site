@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkboldly=self.webpackChunkboldly||[]).push([[718],{718:function(l,s,e){l.exports=e.p+"static/media/sorry-you-will-like-school.60ad527b3ab93647d718.md"}}]);

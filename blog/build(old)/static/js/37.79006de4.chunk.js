@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkboldly=self.webpackChunkboldly||[]).push([[37],{37:function(a,e,s){a.exports=s.p+"static/media/boxing-an-ai.0533c7f8aed563a4f087.md"}}]);
