@@ -1,0 +1,2 @@
+(this.webpackJsonpboldly=this.webpackJsonpboldly||[]).push([[6],{39:function(s,e,t){"use strict";t.r(e),e.default=t.p+"static/media/home-design-for-small-spaces.df24f64f.md"}}]);
+//# sourceMappingURL=6.e514fa0c.chunk.js.map

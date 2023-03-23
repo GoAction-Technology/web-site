@@ -1,0 +1,2 @@
+(this.webpackJsonpboldly=this.webpackJsonpboldly||[]).push([[5],{38:function(s,t,i){"use strict";i.r(t),t.default=i.p+"static/media/do-things-surpass-your-life.97f8e094.md"}}]);
+//# sourceMappingURL=5.c4c28d85.chunk.js.map

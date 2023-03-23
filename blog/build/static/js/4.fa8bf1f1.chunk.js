@@ -1,0 +1,2 @@
+(this.webpackJsonpboldly=this.webpackJsonpboldly||[]).push([[4],{37:function(i,s,t){"use strict";t.r(s),s.default=t.p+"static/media/boxing-an-ai.0533c7f8.md"}}]);
+//# sourceMappingURL=4.fa8bf1f1.chunk.js.map

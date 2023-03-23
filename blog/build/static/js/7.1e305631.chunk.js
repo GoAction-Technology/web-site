@@ -1,0 +1,2 @@
+(this.webpackJsonpboldly=this.webpackJsonpboldly||[]).push([[7],{40:function(s,l,o){"use strict";o.r(l),l.default=o.p+"static/media/sorry-you-will-like-school.60ad527b.md"}}]);
+//# sourceMappingURL=7.1e305631.chunk.js.map
