@@ -564,3 +564,41 @@ body {
   transition-duration: .2s;
 }
 
+.giris-moveon {
+  font-family: Montserrat, sans-serif;
+  line-height: 52.8816px;
+  font-weight: 100;
+}
+
+.giris-moveon-baslik {
+  font-family: 'Aquire';
+  font-weight: bold;
+  display: inline-block;
+  font-size: 3rem;
+}
+
+.mobildegoster.giris-moveon-mobile {
+  font-family: Montserrat, sans-serif;
+  line-height: 3rem;
+  font-weight: 100;
+}
+
+.aquire {
+  font-family: 'Aquire';
+}
+
+.gatecotogetherimage {
+  max-width: 30%;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+.text.headertext.masaustundegoster {
+  font-family: 'Aquire';
+  padding-bottom: 96px;
+}
+

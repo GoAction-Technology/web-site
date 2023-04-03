@@ -1,4 +1,5 @@
 .rotating3 {
+  -webkit-animation: rotatingg 4s linear infinite;
   -moz-animation: rotatingg 4s linear infinite;
   -ms-animation: rotatingg 4s linear infinite;
   -o-animation: rotatingg 2s linear infinite;
@@ -53,14 +54,14 @@
 }
 
 .appsecminiheading {
-  font-family: 'Montserrat';
+  font-family: Montserrat, sans-serif;
   margin-bottom: 0;
   color: #fff;
   font-weight: 200;
 }
 
 .appsecparagraph {
-  font-family: 'Montserrat';
+  font-family: Montserrat, sans-serif;
   color: #fff;
 }
 
