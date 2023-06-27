@@ -7,7 +7,6 @@ const updateProgress = (instance) =>
 
 const showDemo = () => {
   document.body.style.overflowX = 'hidden';
-  /*document.scrollingElement.scrollTo(0, 0);*/
   gsap.to(document.querySelector('.loader'), { autoAlpha: 0 });
   
   gsap.utils.toArray('section').forEach((section, index) => {
@@ -23,4 +22,4 @@ const showDemo = () => {
   });
 }
 
-imagesLoaded(images).on('progress', updateProgress).on('always', showDemo);
+showDemo();

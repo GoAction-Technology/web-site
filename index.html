@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html data-bs-theme="light" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -17,6 +17,14 @@ Based on blockchain.">
 reduce carbon emissions to the nature.">
     <meta name="twitter:image" content="https://goaction.tech/assets/img/og_image.jpg">
     <meta name="twitter:title" content="GoAction | Social Earn">
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "GoAction",
+            "url": "https://goaction.tech"
+        }
+    </script>
     <link rel="icon" type="image/png" sizes="682x682" href="assets/img/favicon.png">
     <link rel="icon" type="image/png" sizes="682x682" href="assets/img/favicon.png">
     <link rel="icon" type="image/png" sizes="682x682" href="assets/img/favicon.png">
@@ -26,10 +34,12 @@ reduce carbon emissions to the nature.">
     <link rel="stylesheet" href="assets/css/Aquire.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
     <link rel="stylesheet" href="assets/css/aos.min.css">
     <link rel="stylesheet" href="assets/css/appsection.css">
     <link rel="stylesheet" href="assets/css/big-features.css">
+    <link rel="stylesheet" href="assets/css/cookie.compiled.css">
+    <link rel="stylesheet" href="assets/css/floating-menu.css">
+    <link rel="stylesheet" href="assets/css/floating.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark-Multi-Column-icons.css">
     <link rel="stylesheet" href="assets/css/gradienttext.css">
     <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css">
@@ -51,58 +61,37 @@ reduce carbon emissions to the nature.">
 </head>
 
 <body style="overflow-x: hidden;">
-    <header style="min-height: 100vh;background-size: cover;background-repeat: no-repeat;background-position: top center;position: relative;padding-bottom: 2rem;"><img src="assets/img/gradball.svg" style="position: absolute;left: 0;top: 0;transform: translateX(-50%) translateY(-50%);opacity: 0.40;z-index: -9999999;overflow-x: hidden;">
-        <div class="container" style="overflow-x: hidden;">
-            <nav class="navbar navbar-light navbar-expand position-relative text-center py-3 justify-content-center d-grid">
-                <div class="container"><a class="navbar-brand align-items-center" href="index.html"><img src="assets/img/Main-Logo-Horizontal-Light.svg"></a><a style="position: fixed;right: 1.5rem;top: 1.5rem;transform: scale(0.75);width: 50px;height: 50px;z-index: 999;cursor: pointer;" onclick="changeHeight()">
-                        <div id="mydotsmother" class="mydotsmother">
-                            <div class="mydots" style="top: 0;left: 0;"></div>
-                            <div class="mydots" style="top: 0;left: 20px;"></div>
-                            <div class="mydots" style="top: 0;left: 40px;"></div>
-                            <div class="mydots" style="top: 20px;left: 0;"></div>
-                            <div class="mydots" style="top: 20px;left: 20px;"></div>
-                            <div class="mydots" style="top: 20px;left: 40px;"></div>
-                            <div class="mydots" style="top: 40px;left: 0;"></div>
-                            <div class="mydots" style="top: 40px;left: 20px;"></div>
-                            <div class="mydots" style="top: 40px;left: 40px;"></div>
+    <header class="myheader"><img class="gradball left" src="assets/img/gradball.svg"><img class="d-none d-md-block gradball right" src="assets/img/gradbal-2.svg">
+        <div class="header-inner-div">
+            <div class="container nav-logo-cont">
+                <div>
+                    <div class="row">
+                        <div class="col"><a class="logo-link px-lg-4" href="#"><img src="assets/img/logo.svg"></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container overflow-x-hidden">
+                <div class="row row-cols-1 row-cols-md-2">
+                    <div class="col">
+                        <div class="h-100 d-grid align-items-center">
+                            <div class="d-grid gap-3 px-lg-4">
+                                <div class="d-flex align-items-center gap-3">
+                                    <div class="divider-in-header"></div><span class="text-white-50 fw-light">Web3 Social Network </span>
+                                </div>
+                                <h1 class="text aquire fw-bold display-5 mb-0">Beyond Limits Web3 Social Network </h1>
+                                <div class="d-flex align-items-center gap-2">
+                                    <div class="button-gradient-border"><button class="btn btn-outline-primary" type="button"><span class="text text-nowrap">Download App</span></button></div>
+                                    <p class="small text-white-50 mb-0 d-inline-flex w-md-50">Our app will be available on Play Store and App Store soon&nbsp;</p>
+                                </div>
+                            </div>
                         </div>
-                    </a></div>
-            </nav>
+                    </div>
+                    <div class="col order-first order-md-last px-max-md-0">
+                        <div class="header-image-wrapper"><img class="header-image floating" src="assets/img/sahnee1.webp"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div style="min-height: calc(100vh - 98.6px);display: grid;align-items: center;position: relative;">
-            <div class="container">
-                <h1 class="display-2 text headertext masaustundegoster"><span style="font-weight: bold;">Blockchain</span>&nbsp;project which established in order to<br><span style="font-weight: bold;">reduce carbon emissions</span>&nbsp;to the nature.</h1>
-                <h1 class="display-2 text aquire headertext mobildegoster"><span style="font-weight: bold;">Blockchain</span><br>project which established in order to<br><span style="font-weight: bold;">reduce carbon emissions</span>&nbsp;to the nature.</h1>
-                <div class="soldakiiconlar-2 mobildegoster"><a href="https://www.instagram.com/goactiontechnology/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-instagram">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                            <rect x="4" y="4" width="16" height="16" rx="4"></rect>
-                            <circle cx="12" cy="12" r="3"></circle>
-                            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
-                        </svg></a><a href="https://twitter.com/goaction_tech" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-twitter">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                            <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path>
-                        </svg></a><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-facebook">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
-                        </svg></a><a href="mailto:hello@goaction.tech"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-mail">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                            <rect x="3" y="5" width="18" height="14" rx="2"></rect>
-                            <polyline points="3 7 12 13 21 7"></polyline>
-                        </svg></a><a href="https://discord.gg/q7D2ZN6Jq8" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-discord">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                            <circle cx="9" cy="12" r="1"></circle>
-                            <circle cx="15" cy="12" r="1"></circle>
-                            <path d="M7.5 7.5c3.5-1 5.5-1 9 0"></path>
-                            <path d="M7 16.5c3.5 1 6.5 1 10 0"></path>
-                            <path d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833 -1.667 3.5 -3c.667 -1.667 .5 -5.833 -1.5 -11.5c-1.457 -1.015 -3 -1.34 -4.5 -1.5l-1 2.5"></path>
-                            <path d="M8.5 17c0 1 -1.356 3 -1.832 3c-1.429 0 -2.698 -1.667 -3.333 -3c-.635 -1.667 -.476 -5.833 1.428 -11.5c1.388 -1.015 2.782 -1.34 4.237 -1.5l1 2.5"></path>
-                        </svg></a></div>
-            </div>
-            <div id="scroll-wrapper" class="mobildegoster">
-                <div id="scroll-wrapper-inner"></div><div id="scroll-title">Scroll</div>
-                <div id="scroll-down"></div>
-            </div>
-        </div><img width="100" height="80" src="assets/img/area.svg" style="width: 100%;height: initial;position: absolute;bottom: 0;left: 0;z-index: -2;border-bottom: .1px solid #21965a;">
         <div class="soldakiiconlar masaustundegoster"><a href="https://instagram.com/goactionlabs" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-instagram">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <rect x="4" y="4" width="16" height="16" rx="4"></rect>
@@ -136,43 +125,13 @@ reduce carbon emissions to the nature.">
                     <line x1="15" y1="9" x2="15" y2="15"></line>
                 </svg></a></div>
     </header>
-    <div id="mymenu" style="position: fixed;width: 100%;height: 0;top: 0;/*background-color: rgba(255,255,255,0.5);*//*background-image: url(&quot;assets/img/area2.svg&quot;);*//*background-size: cover;*/z-index: 1;/*overflow: hidden;*/transition-duration: .15s;">
-        <div class="position-relative">
-            <div id="menuwrap" class="menuwrap" style="z-index: 2;position: absolute;top: 0;left: 0;height: 100vh;transform: translateX(-100%);width: 100%;display: grid;justify-content: center;">
-                <div class="d-grid align-items-center">
-                    <ul class="list-unstyled menulist" id="menulist" style="opacity: 0;">
-                        <li><a href="index.html" onclick="closeMenu()">
-                                <h1 class="display-1">Home</h1>
-                            </a></li>
-                        <li><a href="#app" onclick="closeMenu()">
-                                <h1 class="display-1">App</h1>
-                            </a></li>
-                        <li><a href="#tokens" onclick="closeMenu()">
-                                <h1 class="display-1">Tokens</h1>
-                            </a></li>
-                        <li><a href="#faq" onclick="closeMenu()">
-                                <h1 class="display-1">FAQ</h1>
-                            </a></li>
-                        <li><a href="https://linktr.ee/GoActionLabs" onclick="closeMenu()" target="_blank">
-                                <h1 class="display-1">Linktr.ee</h1>
-                            </a></li>
-                        <li><a href="https://go-action.gitbook.io/goaction-whitepaper/" onclick="closeMenu()" target="_blank">
-                                <h1 class="display-1">Whitepaper</h1>
-                            </a></li>
-                    </ul>
-                </div>
-            </div>
-            <div id="birincisicim" class="mystringtheory"></div>
-            <div id="ikincisicim" class="mystringtheory"></div>
-            <div id="ucuncusicim" class="mystringtheory"></div>
-            <div id="dorduncusicim" class="mystringtheory"></div><a id="menuclose" class="manuclose" style="position: absolute;color: #ffffff;z-index: 999999;cursor: pointer;" onclick="closeMenu()"><i class="la la-close" style="font-size: 3rem;text-decoration: none;"></i></a>
-        </div>
-    </div>
     <section>
         <div class="loader df aic jcc">
-            <div style="text-align: center;"><img src="assets/img/Main-Logo-Horizontal-Light.svg" style="width: 12rem;margin-bottom: 2rem;">
-                <h1 class="display-1" style="font-family: 'Aquire';font-weight: bold;">loading</h1>
-                <h1 class="loader--text" style="font-family: 'Aquire';">0%</h1>
+            <div style="text-align: center;">
+                <div class="d-flex align-items-top gap-4">
+                    <h3 class="aquire fw-bold mb-0">loading</h3>
+                    <h3 class="loader--text">0%</h3>
+                </div>
             </div>
         </div>
         <div class="demo-wrapper" style="/*transform: rotate(-20deg);*/">
@@ -184,50 +143,53 @@ reduce carbon emissions to the nature.">
     </div></section>
         </div>
     </section>
-    <section class="d-grid align-items-center mobildepadding my100section">
+    <section class="d-grid align-items-center mobildepadding my100section position-relative overflow-x-hidden"><img class="cropped-nft left" src="assets/img/cropped-nft-bike.png">
         <div class="position-relative">
-            <div class="row justify-content-center m-0">
-                <div class="col-12 col-lg-8">
-                    <div data-aos="fade-right" data-aos-duration="550"><i class="fas fa-quote-left greenshadow" style="font-size: 3rem;margin-bottom: 2rem;color: #21965a;"></i></div>
-                    <h1 data-aos="fade-right" data-aos-duration="650" class="text greenshadow giris-moveon-baslik">Move On</h1>
-                    <h3 data-aos="fade-right" data-aos-duration="750" class="text-white masaustundegoster giris-moveon h2">GoAction is a&nbsp;<span class="greenbadgeforbigparagraph greenshadow">social platform</span>&nbsp;<span style="color: rgb(219, 222, 225); background-color: rgba(2, 2, 2, 0.06);">that brings users' walking and cycling movements into a&nbsp;</span><span class="greenbadgeforbigparagraph greenshadow">sustainable</span>&nbsp;earning system and allows users to organize their own activities and socialize with other users.</h3>
-                    <h4 data-aos="fade-right" data-aos-duration="750" class="text-white mobildegoster giris-moveon-mobile"><span style="color: rgba(var(--bs-white-rgb),var(--bs-text-opacity)) ;">GoAction is a</span>&nbsp;<span class="greenbadgeforbigparagraph greenshadow"><strong>social platform</strong></span>&nbsp;<span style="color: rgb(219, 222, 225); background-color: rgba(2, 2, 2, 0.06);">that brings users' walking and cycling movements into</span>&nbsp;a&nbsp;<span class="greenbadgeforbigparagraph greenshadow"><strong>SUSTAINABLE</strong></span>&nbsp;&nbsp;earning system and allows users to organize their own activities and socialize with other users.</h4>
+            <div class="container">
+                <div class="row justify-content-center m-0">
+                    <div class="col-12 col-lg-10">
+                        <div data-aos="fade-right" data-aos-duration="550" class="d-flex justify-content-center"><i class="fas fa-quote-left greenshadow" style="font-size: 3rem;margin-bottom: 2rem;color: #21965a;"></i></div>
+                        <h2 data-aos="fade-right" data-aos-duration="650" class="text greenshadow giris-moveon-baslik">Be Social Stay Social</h2>
+                        <p data-aos="fade-right" data-aos-duration="750" class="text-white giris-moveon h3">GoAction is a&nbsp;<span class="greenbadgeforbigparagraph greenshadow">social platform</span>&nbsp;that encourages people to build social network allows users to organize&nbsp;<span class="greenbadgeforbigparagraph greenshadow">group events&nbsp;</span><br>&nbsp; and appointments and operates on WEB3 - Based rewarding system.</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </div><img class="cropped-nft right" src="assets/img/cropped-nft-shoe.png">
     </section>
     <section style="overflow-x: hidden;padding-top: 2rem;">
         <div class="container anasayfakisim features" style="/*overflow-x: hidden;*/">
             <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4" style="/*overflow-x: hidden;*//*scrollbar-width: hidden;*/">
                 <div class="col" data-aos="zoom-out-left" data-aos-duration="600">
-                    <div class="greenshadow-box myfeaturediconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 576 576" width="1em" height="1em" fill="currentColor">
+                    <div data-aos="fade" data-aos-duration="800" class="greenshadow-box myfeaturediconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 576 576" width="1em" height="1em" fill="currentColor">
                             <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                             <path d="M496.1 24.24C501.2 7.093 518.6-3.331 535.8 .9552C552.9 5.242 563.3 22.62 559 39.76L550.3 74.63C539.3 118.6 510.1 154.2 472 174.3V480C472 497.7 457.7 512 440 512C422.3 512 408 497.7 408 480V352H392V480C392 497.7 377.7 512 360 512C342.3 512 328 497.7 328 480V174.3C289.9 154.2 260.7 118.6 249.7 74.63L240.1 39.76C236.7 22.62 247.1 5.242 264.2 .9552C281.4-3.331 298.8 7.093 303 24.24L311.8 59.1C321.9 99.59 358.3 127.1 400 127.1C441.7 127.1 478.1 99.59 488.2 59.1L496.1 24.24zM352 47.1C352 21.49 373.5-.0006 400-.0006C426.5-.0006 448 21.49 448 47.1C448 74.51 426.5 95.1 400 95.1C373.5 95.1 352 74.51 352 47.1V47.1zM32.01 48C32.01 21.49 53.5 0 80.01 0C106.5 0 128 21.49 128 48C128 74.51 106.5 96 80.01 96C53.5 96 32.01 74.51 32.01 48V48zM104.7 128C132.1 128 157.6 142 172.2 165.1L209.6 224H240C257.7 224 272 238.3 272 256C272 273.7 257.7 288 240 288H192C181 288 170.9 282.4 164.1 273.1L152 252.7V480C152 497.7 137.7 512 120 512C102.3 512 88 497.7 88 480V352H72V480C72 497.7 57.68 512 40 512C22.33 512 8.005 497.7 8.005 480V288.6L8 287.1V191.1C8 156.7 36.65 127.1 72 127.1L104.7 128z"></path>
                         </svg></div>
                     <h2 class="baslik text">Social-fi<br></h2>
-                    <p>In addition to move to earn, GoSocial is a platform where you can create events with other users and live the social experience to the fullest.</p>
+                    <p>By creating events and engaging in activities with people in your local community, you can earn more than your regular income. GoDate organizes your first date with the person you match with, while GoSocial allows you to participate in group activities.</p>
                 </div>
                 <div class="col" data-aos="zoom-out-left" data-aos-duration="600" data-aos-delay="50">
-                    <div class="greenshadow-box myfeaturediconbox"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-trending-down">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                            <polyline points="3 7 9 13 13 9 21 17"></polyline>
-                            <polyline points="21 10 21 17 14 17"></polyline>
+                    <div data-aos="fade" data-aos-duration="800" class="greenshadow-box myfeaturediconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -64 640 640" width="1em" height="1em" fill="currentColor">
+                            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                            <path d="M448 64H192C85.96 64 0 149.1 0 256s85.96 192 192 192h256c106 0 192-85.96 192-192S554 64 448 64zM247.1 280h-32v32c0 13.2-10.78 24-23.98 24c-13.2 0-24.02-10.8-24.02-24v-32L136 279.1C122.8 279.1 111.1 269.2 111.1 256c0-13.2 10.85-24.01 24.05-24.01L167.1 232v-32c0-13.2 10.82-24 24.02-24c13.2 0 23.98 10.8 23.98 24v32h32c13.2 0 24.02 10.8 24.02 24C271.1 269.2 261.2 280 247.1 280zM431.1 344c-22.12 0-39.1-17.87-39.1-39.1s17.87-40 39.1-40s39.1 17.88 39.1 40S454.1 344 431.1 344zM495.1 248c-22.12 0-39.1-17.87-39.1-39.1s17.87-40 39.1-40c22.12 0 39.1 17.88 39.1 40S518.1 248 495.1 248z"></path>
                         </svg></div>
-                    <h2 class="baslik text">deflationary mechanism</h2>
-                    <p>The mechanism by which users steadily increase their earnings and revolutionize the x to earn category.</p>
+                    <h2 class="baslik text">GAME-FI</h2>
+                    <p>You can randomly upgrade your owned NFTs within the GoAction app, thereby increasing their attributes and earning more. This process also adds more value to your NFTs.</p>
                 </div>
                 <div class="col" data-aos="zoom-out-left" data-aos-duration="600" data-aos-delay="100">
-                    <div class="greenshadow-box myfeaturediconbox"><iconify-icon icon="ic:baseline-co2"></iconify-icon></div>
-                    <h2 class="baslik text">CO<sub style="background-color: #21965a;-webkit-background-clip: text;-webkit-text-fill-color: transparent;">2</sub>&nbsp;emission</h2>
-                    <p>GoAction is an environmentally friendly project that aims to make money for nature instead of giving money to users for transportation and aims to reduce CO2 emissions in line with these purposes.</p>
+                    <div data-aos="fade" data-aos-duration="800" class="greenshadow-box myfeaturediconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -64 640 640" width="1em" height="1em" fill="currentColor">
+                            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                            <path d="M488 191.1h-152l.0001 51.86c.0001 37.66-27.08 72-64.55 75.77c-43.09 4.333-79.45-29.42-79.45-71.63V126.4l-24.51 14.73C123.2 167.8 96.04 215.7 96.04 267.5L16.04 313.8c-15.25 8.751-20.63 28.38-11.75 43.63l80 138.6c8.875 15.25 28.5 20.5 43.75 11.75l103.4-59.75h136.6c35.25 0 64-28.75 64-64c26.51 0 48-21.49 48-48V288h8c13.25 0 24-10.75 24-24l.0001-48C512 202.7 501.3 191.1 488 191.1zM635.7 154.5l-79.95-138.6c-8.875-15.25-28.5-20.5-43.75-11.75l-103.4 59.75h-62.57c-37.85 0-74.93 10.61-107.1 30.63C229.7 100.4 224 110.6 224 121.6l-.0004 126.4c0 22.13 17.88 40 40 40c22.13 0 40-17.88 40-40V159.1h184c30.93 0 56 25.07 56 56v28.5l80-46.25C639.3 189.4 644.5 169.8 635.7 154.5z"></path>
+                        </svg></div>
+                    <h2 class="baslik text">B2B</h2>
+                    <p>We direct our users who engage in activities from a specific point to another point towards businesses that are members of GoAction Business and have purchased our appointment packages. We provide discounts to both the businesses and our user customers from these businesses.</p>
                 </div>
                 <div class="col" data-aos="zoom-out-left" data-aos-duration="600" data-aos-delay="100">
-                    <div class="greenshadow-box myfeaturediconbox"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-heart">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                            <path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"></path>
+                    <div data-aos="fade" data-aos-duration="800" class="greenshadow-box myfeaturediconbox"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor">
+                            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                            <path d="M184 0C214.9 0 240 25.07 240 56V456C240 486.9 214.9 512 184 512C155.1 512 131.3 490.1 128.3 461.9C123.1 463.3 117.6 464 112 464C76.65 464 48 435.3 48 400C48 392.6 49.27 385.4 51.59 378.8C21.43 367.4 0 338.2 0 304C0 272.1 18.71 244.5 45.77 231.7C37.15 220.8 32 206.1 32 192C32 161.3 53.59 135.7 82.41 129.4C80.84 123.9 80 118 80 112C80 82.06 100.6 56.92 128.3 49.93C131.3 21.86 155.1 0 184 0zM383.7 49.93C411.4 56.92 432 82.06 432 112C432 118 431.2 123.9 429.6 129.4C458.4 135.7 480 161.3 480 192C480 206.1 474.9 220.8 466.2 231.7C493.3 244.5 512 272.1 512 304C512 338.2 490.6 367.4 460.4 378.8C462.7 385.4 464 392.6 464 400C464 435.3 435.3 464 400 464C394.4 464 388.9 463.3 383.7 461.9C380.7 490.1 356.9 512 328 512C297.1 512 272 486.9 272 456V56C272 25.07 297.1 0 328 0C356.9 0 380.7 21.86 383.7 49.93z"></path>
                         </svg></div>
-                    <h2 class="baslik text">accessible to all</h2>
-                    <p>If we are thinking about nature, we should spread it to everyone, so you don't need any reference code or NFT to use our application. You can access for free.</p>
+                    <h2 class="baslik text">AI</h2>
+                    <p>For first dates, personalized artificial intelligence-supported route suggestions will be created taking into account individuals' specific preferences and the places they enjoy engaging in activities.</p>
                 </div>
             </div>
         </div>
@@ -254,7 +216,7 @@ reduce carbon emissions to the nature.">
                         </div><img data-aos="zoom-in" data-aos-duration="500" width="100" height="80" src="assets/img/Star.svg" style="position: absolute;top: 10%;left: 70%;">
                     </div><img src="assets/img/greenshine.svg" style="position: absolute;bottom: 0;left: 0;width: 29vw;transform: translate(-50% , 0%);z-index: -1;opacity: 50%;">
                 </div>
-                <div class="col position-relative py-4 appsecimgcol"><img class="img-fluid appsecimg" data-aos="fade-up" data-aos-duration="750" src="assets/img/surus_ss.webp"><img class="appsecchains" src="assets/img/halkalar.svg"><img class="shine" src="assets/img/greenshine.svg"></div>
+                <div class="col position-relative py-4 appsecimgcol"><img class="img-fluid appsecimg" data-aos="fade-up" data-aos-duration="750" src="assets/img/drive_mode.webp"><img class="appsecchains" src="assets/img/halkalar.svg"><img class="shine" src="assets/img/greenshine.svg"></div>
             </div>
             <div class="row gx-0 row-cols-1 row-cols-md-2">
                 <div class="col order-md-last appsecyazicol">
@@ -270,7 +232,7 @@ reduce carbon emissions to the nature.">
                         </div><img data-aos="zoom-in" data-aos-duration="500" class="star star-2" width="100" height="80" src="assets/img/Star.svg" style="position: absolute;top: 0;">
                     </div>
                 </div>
-                <div class="col position-relative py-4 appsecimgcol"><img class="img-fluid appsecimg" data-aos="fade-up" data-aos-duration="750" src="assets/img/gosocial_ss.webp" loading="lazy"><img class="appsecchains" src="assets/img/halkalar.svg"><img class="shine" src="assets/img/greenshine.svg"></div>
+                <div class="col position-relative py-4 appsecimgcol"><img class="img-fluid appsecimg" data-aos="fade-up" data-aos-duration="750" src="assets/img/go_social.webp" loading="auto"><img class="appsecchains" src="assets/img/halkalar.svg"><img class="shine" src="assets/img/greenshine.svg"></div>
             </div>
             <div class="row gx-0 row-cols-1 row-cols-md-2">
                 <div class="col appsecyazicol">
@@ -286,7 +248,7 @@ reduce carbon emissions to the nature.">
                         </div>
                     </div><img data-aos="zoom-in" data-aos-duration="500" width="100" height="80" src="assets/img/Star.svg" style="position: absolute;top: 20%;left: 80%;">
                 </div>
-                <div class="col position-relative py-4 appsecimgcol"><img class="img-fluid appsecimg" data-aos="fade-up" data-aos-duration="750" src="assets/img/marketplace_ss.webp" loading="lazy"><img class="appsecchains" src="assets/img/halkalar.svg"><img class="shine" src="assets/img/greenshine.svg"></div>
+                <div class="col position-relative py-4 appsecimgcol"><img class="img-fluid appsecimg" data-aos="fade-up" data-aos-duration="750" src="assets/img/NFT.webp" loading="auto"><img class="appsecchains" src="assets/img/halkalar.svg"><img class="shine" src="assets/img/greenshine.svg"></div>
             </div>
             <div class="row gx-0 row-cols-1 row-cols-md-2">
                 <div class="col order-md-last appsecyazicol">
@@ -302,7 +264,23 @@ reduce carbon emissions to the nature.">
                         </div>
                     </div><img data-aos="zoom-in" data-aos-duration="500" width="100" height="80" src="assets/img/Star.svg" style="position: absolute;top: 20%;left: 80%;">
                 </div>
-                <div class="col position-relative py-4 appsecimgcol"><img class="img-fluid appsecimg" data-aos="fade-up" data-aos-duration="750" src="assets/img/profile_ss.webp" loading="lazy"><img class="appsecchains" src="assets/img/halkalar.svg"><img class="shine" src="assets/img/greenshine.svg"></div>
+                <div class="col position-relative py-4 appsecimgcol"><img class="img-fluid appsecimg" data-aos="fade-up" data-aos-duration="750" src="assets/img/Profile.webp" loading="auto"><img class="appsecchains" src="assets/img/halkalar.svg"><img class="shine" src="assets/img/greenshine.svg"></div>
+            </div>
+            <div class="row gx-0 row-cols-1 row-cols-md-2">
+                <div class="col appsecyazicol">
+                    <div class="h-100 d-grid align-items-center">
+                        <div>
+                            <h6 data-aos="fade-right" data-aos-duration="550" class="appsecminiheading">Say "Hi" to new people!</h6>
+                            <div style="position: relative;">
+                                <h1 class="display-2 appsecheading" data-aos="fade-right" data-aos-duration="650">GODATE </h1>
+                                <div class="donecek3 rotating3"></div>
+                                <div class="noktaa"></div>
+                            </div>
+                            <p class="fs-5 appsecparagraph" data-aos="fade-right" data-aos-duration="750">GoDate is designed to enable users to have more meaningful interactions with each other. This module matches users based on their common interests, suggests optional random routes, and organizes users' meetings by providing discounts from businesses.</p>
+                        </div>
+                    </div><img data-aos="zoom-in" data-aos-duration="500" width="100" height="80" src="assets/img/Star.svg" style="position: absolute;top: 20%;left: 80%;">
+                </div>
+                <div class="col position-relative py-4 appsecimgcol"><img class="img-fluid appsecimg" data-aos="fade-up" data-aos-duration="750" src="assets/img/GoDate.webp" loading="auto"><img class="appsecchains" src="assets/img/halkalar.svg"><img class="shine" src="assets/img/greenshine.svg"></div>
             </div>
         </div>
     </section>
@@ -323,7 +301,7 @@ reduce carbon emissions to the nature.">
                 <div class="col">
                     <div class="row gy-3 row-cols-1 tokensrow overflow-x-hidden" style="padding-left: 0;padding-right: 0;margin: 0;">
                         <div class="col">
-                            <div style="justify-content: start;display: grid;"><img data-aos="fade-left" data-aos-duration="550" class="gatecotogetherimage" src="assets/img/gateco.png">
+                            <div style="justify-content: start;display: grid;"><img data-aos="fade-left" data-aos-duration="550" class="gatecotogetherimage" src="assets/img/gateco.webp">
                                 <h1 data-aos="fade-left" data-aos-duration="650" class="text mb-3 justify-content-start greenshadow d-inline-block aquire fw-bold">dual tokens</h1>
                                 <p data-aos="fade-left" data-aos-duration="750" class="text-white" style="font-family: 'Montserrat';">GoAction uses a dual token system mechanism.<br>We developed this mechanism with perfection, math and passion.</p>
                                 <div>
@@ -354,11 +332,11 @@ reduce carbon emissions to the nature.">
                                     <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -64 640 640" width="1em" height="1em" fill="currentColor" class="me-2">
                                             <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                                             <path d="M535 7.03C544.4-2.343 559.6-2.343 568.1 7.029L632.1 71.02C637.5 75.52 640 81.63 640 87.99C640 94.36 637.5 100.5 632.1 104.1L568.1 168.1C559.6 178.3 544.4 178.3 535 168.1C525.7 159.6 525.7 144.4 535 135L558.1 111.1L384 111.1C370.7 111.1 360 101.2 360 87.99C360 74.74 370.7 63.99 384 63.99L558.1 63.1L535 40.97C525.7 31.6 525.7 16.4 535 7.03V7.03zM104.1 376.1L81.94 400L255.1 399.1C269.3 399.1 279.1 410.7 279.1 423.1C279.1 437.2 269.3 447.1 255.1 447.1L81.95 448L104.1 471C114.3 480.4 114.3 495.6 104.1 504.1C95.6 514.3 80.4 514.3 71.03 504.1L7.029 440.1C2.528 436.5-.0003 430.4 0 423.1C0 417.6 2.529 411.5 7.03 407L71.03 343C80.4 333.7 95.6 333.7 104.1 343C114.3 352.4 114.3 367.6 104.1 376.1H104.1zM95.1 64H337.9C334.1 71.18 332 79.34 332 87.1C332 116.7 355.3 139.1 384 139.1L481.1 139.1C484.4 157.5 494.9 172.5 509.4 181.9C511.1 184.3 513.1 186.6 515.2 188.8C535.5 209.1 568.5 209.1 588.8 188.8L608 169.5V384C608 419.3 579.3 448 544 448H302.1C305.9 440.8 307.1 432.7 307.1 423.1C307.1 395.3 284.7 371.1 255.1 371.1L158.9 372C155.5 354.5 145.1 339.5 130.6 330.1C128.9 327.7 126.9 325.4 124.8 323.2C104.5 302.9 71.54 302.9 51.23 323.2L31.1 342.5V128C31.1 92.65 60.65 64 95.1 64V64zM95.1 192C131.3 192 159.1 163.3 159.1 128H95.1V192zM544 384V320C508.7 320 480 348.7 480 384H544zM319.1 352C373 352 416 309 416 256C416 202.1 373 160 319.1 160C266.1 160 223.1 202.1 223.1 256C223.1 309 266.1 352 319.1 352z"></path>
-                                        </svg>Can be converted into FIAT currency</li>
+                                        </svg>SWAPABLE WITH ECO</li>
                                     <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor" class="me-2">
                                             <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                                             <path d="M323.5 51.25C302.8 70.5 284 90.75 267.4 111.1C240.1 73.62 206.2 35.5 168 0C69.75 91.12 0 210 0 281.6C0 408.9 100.2 512 224 512s224-103.1 224-230.4C448 228.4 396 118.5 323.5 51.25zM304.1 391.9C282.4 407 255.8 416 226.9 416c-72.13 0-130.9-47.73-130.9-125.2c0-38.63 24.24-72.64 72.74-130.8c7 8 98.88 125.4 98.88 125.4l58.63-66.88c4.125 6.75 7.867 13.52 11.24 19.9C364.9 290.6 353.4 357.4 304.1 391.9z"></path>
-                                        </svg>Every swap result is burned</li>
+                                        </svg>REGULAR BUYBACK&amp;BURN PROGRAM</li>
                                     <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" class="me-2">
                                             <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                                             <path d="M512 80C512 98.01 497.7 114.6 473.6 128C444.5 144.1 401.2 155.5 351.3 158.9C347.7 157.2 343.9 155.5 340.1 153.9C300.6 137.4 248.2 128 192 128C183.7 128 175.6 128.2 167.5 128.6L166.4 128C142.3 114.6 128 98.01 128 80C128 35.82 213.1 0 320 0C426 0 512 35.82 512 80V80zM160.7 161.1C170.9 160.4 181.3 160 192 160C254.2 160 309.4 172.3 344.5 191.4C369.3 204.9 384 221.7 384 240C384 243.1 383.3 247.9 381.9 251.7C377.3 264.9 364.1 277 346.9 287.3C346.9 287.3 346.9 287.3 346.9 287.3C346.8 287.3 346.6 287.4 346.5 287.5L346.5 287.5C346.2 287.7 345.9 287.8 345.6 288C310.6 307.4 254.8 320 192 320C132.4 320 79.06 308.7 43.84 290.9C41.97 289.9 40.15 288.1 38.39 288C14.28 274.6 0 258 0 240C0 205.2 53.43 175.5 128 164.6C138.5 163 149.4 161.8 160.7 161.1L160.7 161.1zM391.9 186.6C420.2 182.2 446.1 175.2 468.1 166.1C484.4 159.3 499.5 150.9 512 140.6V176C512 195.3 495.5 213.1 468.2 226.9C453.5 234.3 435.8 240.5 415.8 245.3C415.9 243.6 416 241.8 416 240C416 218.1 405.4 200.1 391.9 186.6V186.6zM384 336C384 354 369.7 370.6 345.6 384C343.8 384.1 342 385.9 340.2 386.9C304.9 404.7 251.6 416 192 416C129.2 416 73.42 403.4 38.39 384C14.28 370.6 .0003 354 .0003 336V300.6C12.45 310.9 27.62 319.3 43.93 326.1C83.44 342.6 135.8 352 192 352C248.2 352 300.6 342.6 340.1 326.1C347.9 322.9 355.4 319.2 362.5 315.2C368.6 311.8 374.3 308 379.7 304C381.2 302.9 382.6 301.7 384 300.6L384 336zM416 278.1C434.1 273.1 452.5 268.6 468.1 262.1C484.4 255.3 499.5 246.9 512 236.6V272C512 282.5 507 293 497.1 302.9C480.8 319.2 452.1 332.6 415.8 341.3C415.9 339.6 416 337.8 416 336V278.1zM192 448C248.2 448 300.6 438.6 340.1 422.1C356.4 415.3 371.5 406.9 384 396.6V432C384 476.2 298 512 192 512C85.96 512 .0003 476.2 .0003 432V396.6C12.45 406.9 27.62 415.3 43.93 422.1C83.44 438.6 135.8 448 192 448z"></path>
@@ -367,10 +345,10 @@ reduce carbon emissions to the nature.">
                                             <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                                             <path d="M54.63 246.6L192 109.3l137.4 137.4C335.6 252.9 343.8 256 352 256s16.38-3.125 22.62-9.375c12.5-12.5 12.5-32.75 0-45.25l-160-160c-12.5-12.5-32.75-12.5-45.25 0l-160 160c-12.5 12.5-12.5 32.75 0 45.25S42.13 259.1 54.63 246.6zM214.6 233.4c-12.5-12.5-32.75-12.5-45.25 0l-160 160c-12.5 12.5-12.5 32.75 0 45.25s32.75 12.5 45.25 0L192 301.3l137.4 137.4C335.6 444.9 343.8 448 352 448s16.38-3.125 22.62-9.375c12.5-12.5 12.5-32.75 0-45.25L214.6 233.4z"></path>
                                         </svg>NFT Upgrade<br></li>
-                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 576 576" width="1em" height="1em" fill="currentColor" class="me-2">
+                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" class="me-2">
                                             <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-                                            <path d="M466.7 352L320 205.3L214.6 310.6C202.1 323.1 181.9 323.1 169.4 310.6L9.372 150.6C-3.124 138.1-3.124 117.9 9.372 105.4C21.87 92.88 42.13 92.88 54.63 105.4L191.1 242.7L297.4 137.4C309.9 124.9 330.1 124.9 342.6 137.4L512 306.7V223.1C512 206.3 526.3 191.1 544 191.1C561.7 191.1 576 206.3 576 223.1V384C576 401.7 561.7 416 544 416H384C366.3 416 352 401.7 352 384C352 366.3 366.3 352 384 352L466.7 352z"></path>
-                                        </svg>Deflationary</li>
+                                            <path d="M152 0H154.2C186.1 0 215.7 16.91 231.9 44.45L256 85.46L280.1 44.45C296.3 16.91 325.9 0 357.8 0H360C408.6 0 448 39.4 448 88C448 102.4 444.5 115.1 438.4 128H480C497.7 128 512 142.3 512 160V224C512 241.7 497.7 256 480 256H32C14.33 256 0 241.7 0 224V160C0 142.3 14.33 128 32 128H73.6C67.46 115.1 64 102.4 64 88C64 39.4 103.4 0 152 0zM190.5 68.78C182.9 55.91 169.1 48 154.2 48H152C129.9 48 112 65.91 112 88C112 110.1 129.9 128 152 128H225.3L190.5 68.78zM360 48H357.8C342.9 48 329.1 55.91 321.5 68.78L286.7 128H360C382.1 128 400 110.1 400 88C400 65.91 382.1 48 360 48V48zM32 288H224V512H80C53.49 512 32 490.5 32 464V288zM288 512V288H480V464C480 490.5 458.5 512 432 512H288z"></path>
+                                        </svg>REWARDS FOR STAKING POOLS</li>
                                 </ul>
                             </div>
                         </div>
@@ -386,10 +364,6 @@ reduce carbon emissions to the nature.">
                                             <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                                             <path d="M184 88C184 118.9 158.9 144 128 144C97.07 144 72 118.9 72 88C72 57.07 97.07 32 128 32C158.9 32 184 57.07 184 88zM208.4 196.3C178.7 222.7 160 261.2 160 304C160 338.3 171.1 369.8 192 394.5V416C192 433.7 177.7 448 160 448H96C78.33 448 64 433.7 64 416V389.2C26.16 371.2 0 332.7 0 288C0 226.1 50.14 176 112 176H144C167.1 176 190.2 183.5 208.4 196.3V196.3zM64 245.7C54.04 256.9 48 271.8 48 288C48 304.2 54.04 319.1 64 330.3V245.7zM448 416V394.5C468 369.8 480 338.3 480 304C480 261.2 461.3 222.7 431.6 196.3C449.8 183.5 472 176 496 176H528C589.9 176 640 226.1 640 288C640 332.7 613.8 371.2 576 389.2V416C576 433.7 561.7 448 544 448H480C462.3 448 448 433.7 448 416zM576 330.3C585.1 319.1 592 304.2 592 288C592 271.8 585.1 256.9 576 245.7V330.3zM568 88C568 118.9 542.9 144 512 144C481.1 144 456 118.9 456 88C456 57.07 481.1 32 512 32C542.9 32 568 57.07 568 88zM256 96C256 60.65 284.7 32 320 32C355.3 32 384 60.65 384 96C384 131.3 355.3 160 320 160C284.7 160 256 131.3 256 96zM448 304C448 348.7 421.8 387.2 384 405.2V448C384 465.7 369.7 480 352 480H288C270.3 480 256 465.7 256 448V405.2C218.2 387.2 192 348.7 192 304C192 242.1 242.1 192 304 192H336C397.9 192 448 242.1 448 304zM256 346.3V261.7C246 272.9 240 287.8 240 304C240 320.2 246 335.1 256 346.3zM384 261.7V346.3C393.1 335 400 320.2 400 304C400 287.8 393.1 272.9 384 261.7z"></path>
                                         </svg>Gain multiplier 1.5x on group rides</li>
-                                    <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor" class="me-2">
-                                            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-                                            <path d="M323.5 51.25C302.8 70.5 284 90.75 267.4 111.1C240.1 73.62 206.2 35.5 168 0C69.75 91.12 0 210 0 281.6C0 408.9 100.2 512 224 512s224-103.1 224-230.4C448 228.4 396 118.5 323.5 51.25zM304.1 391.9C282.4 407 255.8 416 226.9 416c-72.13 0-130.9-47.73-130.9-125.2c0-38.63 24.24-72.64 72.74-130.8c7 8 98.88 125.4 98.88 125.4l58.63-66.88c4.125 6.75 7.867 13.52 11.24 19.9C364.9 290.6 353.4 357.4 304.1 391.9z"></path>
-                                        </svg>Each swap result is burned</li>
                                     <li><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor" class="me-2">
                                             <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
                                             <path d="M176 448C167.3 448 160 455.3 160 464V512h32v-48C192 455.3 184.8 448 176 448zM272 448c-8.75 0-16 7.25-16 16s7.25 16 16 16s16-7.25 16-16S280.8 448 272 448zM164 172l8.205 24.62c1.215 3.645 6.375 3.645 7.59 0L188 172l24.62-8.203c3.646-1.219 3.646-6.375 0-7.594L188 148L179.8 123.4c-1.215-3.648-6.375-3.648-7.59 0L164 148L139.4 156.2c-3.646 1.219-3.646 6.375 0 7.594L164 172zM336.1 315.4C304 338.6 265.1 352 224 352s-80.03-13.43-112.1-36.59C46.55 340.2 0 403.3 0 477.3C0 496.5 15.52 512 34.66 512H128v-64c0-17.75 14.25-32 32-32h128c17.75 0 32 14.25 32 32v64h93.34C432.5 512 448 496.5 448 477.3C448 403.3 401.5 340.2 336.1 315.4zM64 224h13.5C102.3 280.5 158.4 320 224 320s121.8-39.5 146.5-96H384c8.75 0 16-7.25 16-16v-96C400 103.3 392.8 96 384 96h-13.5C345.8 39.5 289.6 0 224 0S102.3 39.5 77.5 96H64C55.25 96 48 103.3 48 112v96C48 216.8 55.25 224 64 224zM104 136C104 113.9 125.5 96 152 96h144c26.5 0 48 17.88 48 40V160c0 53-43 96-96 96h-48c-53 0-96-43-96-96V136z"></path>
@@ -472,82 +446,797 @@ reduce carbon emissions to the nature.">
             </div>
         </div>
     </section>
-    <section id="roadmap" class="py-5">
+    <section id="faq" class="py-5 faq">
         <div class="container overflow-x-hidden overflow-y-hidden">
             <div data-aos="fade" data-aos-duration="1000" class="teambaslik">
-                <h1 class="display-3 text-center text greenshadow" style="font-family: 'Aquire';position: absolute;bottom: 50%;left: 50%;transform: translateX(-50%) translateY(50%);z-index: 9;font-weight: bold;">ROADMAP</h1>
-                <h1 class="text-center" style="font-family: 'Aquire';color: #222222;position: absolute;bottom: 50%;left: 50%;transform: translateX(-50%) translateY(50%);font-size: calc(1.625rem + 6.5vw);white-space: nowrap;font-weight: 100;">MOTIVATIONAL</h1>
-            </div>
-        </div>
-        <div class="container"><img class="img-fluid w-100 d-none d-md-block" src="assets/img/roadmapdesktop.svg"><img class="img-fluid w-100 d-block d-md-none" src="assets/img/roadmapmobile.svg"></div>
-    </section>
-    <section id="faq" class="py-5">
-        <div class="container overflow-x-hidden overflow-y-hidden">
-            <div data-aos="fade" data-aos-duration="1000" class="teambaslik">
-                <h1 class="display-3 text-center text greenshadow" style="font-family: 'Aquire';position: absolute;bottom: 50%;left: 50%;transform: translateX(-50%) translateY(50%);z-index: 9;font-weight: bold;">FAQ</h1>
+                <h1 class="display-3 text-center text greenshadow">FAQ</h1>
                 <h1 class="text-center" style="font-family: 'Aquire';color: #222222;position: absolute;bottom: 50%;left: 50%;transform: translateX(-50%) translateY(50%);font-size: calc(1.625rem + 6.5vw);white-space: nowrap;font-weight: 100;overflow-x: hidden;/*max-width: 100%;*/overflow-y: hidden;">USEFUL</h1>
             </div>
         </div>
         <div class="container">
-            <div class="row masaustundegoster">
-                <div class="col">
-                    <div class="accordion" role="tablist" id="accordion-1">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="false" aria-controls="accordion-1 .item-1">What is goaction</button></h2>
-                            <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-1">
-                                <div class="accordion-body">
-                                    <p class="mb-0">GoAction is a social platform that brings users' walking and cycling movements into a sustainable earning system and allows users to organize their own activities and socialize with other users.</p>
+            <div>
+                <ul class="nav nav-pills mb-3" role="tablist">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" role="tab" data-bs-toggle="pill" href="#tab-1"><span>Token</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="pill" href="#tab-2"><span>General</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="pill" href="#tab-3"><span>GoMove</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="pill" href="#tab-4"><span>GoWallet</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="pill" href="#tab-5"><span>NFT &amp; NFT Marketplace</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="pill" href="#tab-6"><span>GoSocial</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="pill" href="#tab-7"><span>Profile</span></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" role="tab" data-bs-toggle="pill" href="#tab-8"><span>GoDate</span></a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" role="tabpanel" id="tab-1">
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-6">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-6 .item-1" aria-expanded="false" aria-controls="accordion-6 .item-1">What is the maximum supply of GoAction’s token?</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-6">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">The maximum supply of the GoAction Token is 5.000.000.000.000</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-6 .item-2" aria-expanded="false" aria-controls="accordion-6 .item-2">What blockchain is GoAction’s token built on?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-6">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Binance Smart Chain</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-6 .item-3" aria-expanded="false" aria-controls="accordion-6 .item-3">What is GoAction’s token?</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-6">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">GoAction Token, $GAT, is a cryptocurrency created by GoAction that powers the GoAction’s ecosystem.&nbsp;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-6 .item-4" aria-expanded="false" aria-controls="accordion-6 .item-4">What is Ecosystem token?</button></h2>
+                                        <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-6">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Ecosystem Token, $ECO, is a cryptocurrency created by GoAction that powers the GoAction’s ecosystem.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-6 .item-5" aria-expanded="false" aria-controls="accordion-6 .item-5">What is the utility of Ecosystem token?</button></h2>
+                                        <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-6">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Ecosystem tokens serve as in-app currency, reward user contributions, support NFT repair and energy purchases within GoAction.</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-2" aria-expanded="false" aria-controls="accordion-1 .item-2">What are Goaction's mission and goal?</button></h2>
-                            <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
-                                <div class="accordion-body">
-                                    <p class="mb-0"><strong>Goal</strong><br>Our vision is to bring the Game-Fi world together with Social-Fi without sacrificing users to the inflationary system. to unite and create a revolution.<br><br><strong>Mission</strong><br>Our mission is to create a sustainable ecosystem that enables users to participate in the Web3 world. By creating a social environment as well as exercise, we want to push people within the same community towards a more profitable system of action against climate change in the world.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3">What is GoSocial?</button></h2>
-                            <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
-                                <div class="accordion-body">
-                                    <p class="mb-0">By creating events on GoSocial, users can socialize with their close friends or people they haven't met yet and earn more than their normal earnings as a result. The purpose of GoSocial is to create a social network where users interact outside.<br><br>NOTE: Creating events and group activities with multiple people will earn 1.5 times more than your normal earnings</p>
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-7">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-7 .item-1" aria-expanded="false" aria-controls="accordion-7 .item-1">What is the utility of GoAction’s token?</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-7">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">The utility of GoAction’s token includes swapable with ECO, NFT Upgrade, rewards for staking pools, premium models payment system, voting rights for the DAO , regular Buyback&amp;Burn program.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-7 .item-2" aria-expanded="false" aria-controls="accordion-7 .item-2">How can users earn rewards GoAction’s token?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-7">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Users can use the Ecosystem tokens they earn within the app can earn the amount of GoAction tokens we distribute daily by clicking the swap button in GoWallet.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-7 .item-3" aria-expanded="false" aria-controls="accordion-7 .item-3">why we created dual token system</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-7">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">The GoAction app uses a binary token system because it wants to be sustainable and generate good profits for its users. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-7 .item-4" aria-expanded="false" aria-controls="accordion-7 .item-4">Can users use their tokens to purchase premium memberships?</button></h2>
+                                        <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-7">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Users can purchase the premium package within the app with the GoAction token.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-7 .item-5" aria-expanded="false" aria-controls="accordion-7 .item-5">Will the tokenomics of GoAction’s token be released publicly?</button></h2>
+                                        <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-7">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Yes! can reach on our website</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="accordion" role="tablist" id="accordion-3">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-1" aria-expanded="false" aria-controls="accordion-3 .item-1">How do I use GoAction</button></h2>
-                            <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-3">
-                                <div class="accordion-body">
-                                    <p class="mb-0">It can be downloaded from the Google Play Store and the App Store and logged in with an E-mail or Phone number optionally. In order to convert the earned ECO$s into cash, a hot wallet link must be established within the application. There is no need to purchase NFT or login with reference code to use the app.</p>
+                    <div class="tab-pane" role="tabpanel" id="tab-2">
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-4">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-4 .item-1" aria-expanded="false" aria-controls="accordion-4 .item-1">What is GoAction?&nbsp;</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-4">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">GoAction is a social platform that encourages people to build social network, allows users to organize group events and appointments, and operates on a web 3-based rewarding system.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-4 .item-2" aria-expanded="false" aria-controls="accordion-4 .item-2">What are Goaction's mission and goal?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-4">
+                                            <div class="accordion-body">
+                                                <p class="mb-0"><strong>Goal</strong><br><br>The vision of GoAction is to transform people's social experiences and provide them with a richer, more engaging, and meaningful social life. The platform brings users together using innovative technologies, enhances social interactions, and enriches life experiences. Its goal is to encourage people to live more actively, socially, and connectedly.<br><br><strong>Mission</strong><br><br>The mission of GoAction is to enhance people's social lives and foster meaningful interactions. The platform achieves this by enabling users to meet new people, participate in enjoyable activities, and strengthen their social connections. It also supports local businesses and provides users with advantageous opportunities.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-4 .item-3" aria-expanded="false" aria-controls="accordion-4 .item-3">What in-app features does GoAction have?</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-4">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">GoAction's in-app features include Staking, Dating, Move to Earn, Events, Social Media, AI, GameFi, Chatting, Venue Discounts, Data Stats.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-4 .item-4" aria-expanded="false" aria-controls="accordion-4 .item-4">Where do I download goaction?</button></h2>
+                                        <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-4">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">App Store and Google Play Store.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-5">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-5 .item-1" aria-expanded="false" aria-controls="accordion-5 .item-1">How do I use Goaction?</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-5">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">By downloading the GoAction application from the Google Play Store and App Store, you can simply register and use it easily thanks to its convenient and simple interface, and you can easily do everything in the ecosystem we have created and enjoy the application.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-5 .item-2" aria-expanded="false" aria-controls="accordion-5 .item-2">What are GoAction’s revenue models?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-5">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">GoAction's revenue model includes NFT Sales, NFT Marketplace fee, Premium Models, Businesses packages (GoSocial-GoDate), Digital Advertisers, Affiliate Marketing, Data Analytics Revenue, in-app purchases, Brand Partnerships.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-5 .item-3" aria-expanded="false" aria-controls="accordion-5 .item-3">How will GoAction benefit users?</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-5">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">GoAction is a platform that enhances people's social lives by making it easier for them to meet new people and participate in fun activities together. It arranges both individual and community events that bring individuals together. Businesses can leverage this platform to organize events under their own name, attract new customers and offer discounts to users, thereby supporting local businesses. The Date module recommends optional and randomized routes and discounts to users who match, thus facilitating their ability to meet in person and form more meaningful relationships. By utilizing AI technology, the platform ensures more accurate user matches, ultimately saving users time and effort. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-5 .item-4" aria-expanded="false" aria-controls="accordion-5 .item-4">GoAction whitepaper published?</button></h2>
+                                        <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-5">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Yes! can reach on our website</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-2" aria-expanded="false" aria-controls="accordion-3 .item-2">How much is our token supply?</button></h2>
-                            <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-3">
-                                <div class="accordion-body">
-                                    <p class="mb-0">Creating new supplies could pose a trust problem for investors. Therefore we consulted with numerous crypto economists on this issue and chose a fixed supply of 6.000.000.000</p>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="tab-3">
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-8">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-8 .item-1" aria-expanded="false" aria-controls="accordion-8 .item-1">What is GoMove?</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-8">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">GoMove tracks the kilometers users walk or cycle and converts this mileage into a reward system based on the characteristics of NFTs, earning ECO tokens accordingly. In addition, events organized on GoSocial and GoDate are integrated and used in the GoMove module.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-8 .item-2" aria-expanded="false" aria-controls="accordion-8 .item-2">How do I start ?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-8">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can use it simply by clicking on the GoMove section in the app, selecting the desired NFT and clicking the start button.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-8 .item-3" aria-expanded="false" aria-controls="accordion-8 .item-3">How to choose between riding or walking?</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-8">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">In the GoMove section you can simply select cycling or walking with the swipe button in the left column.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-8 .item-4" aria-expanded="false" aria-controls="accordion-8 .item-4">Do I need to give location permission?</button></h2>
+                                        <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-8">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">es, you need to give access to location permission so that the app knows when you are walking or cycling and rewards you.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-8 .item-5" aria-expanded="false" aria-controls="accordion-8 .item-5">How to see current location?</button></h2>
+                                        <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-8">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">In order for the app to recognize and reward you for walking or cycling, you need to grant access to location permission.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-9">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-9 .item-1" aria-expanded="false" aria-controls="accordion-9 .item-1">Do I need connect any web3 wallet to app?</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-9">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">To convert the Ecosystem token to GoAction token, you need to integrate your metamask or trust wallet into in the app.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-9 .item-2" aria-expanded="false" aria-controls="accordion-9 .item-2">How to change my NFT on GoMove?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-9">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Before clicking the start button, you can easily change your NFT with the directional buttons to the right or left of the start button, select the one you want and start walking or cycling.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-9 .item-3" aria-expanded="false" aria-controls="accordion-9 .item-3">Can I buy energy or repair my NFT on GoMove?</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-9">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Click the repair and energy purchase buttons on the left and right of your NFT to be redirected to the detail page of your NFT where you can purchase energy or repair your NFT. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-9 .item-4" aria-expanded="false" aria-controls="accordion-9 .item-4">What are the speed ranges required for walking or cycling?</button></h2>
+                                        <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-9">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">The speed range for walking is 1-10 km. Cycling has a speed range of 11-35 km.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-9 .item-5" aria-expanded="false" aria-controls="accordion-9 .item-5">Will my activity end if I am inactive for a long time?</button></h2>
+                                        <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-9">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">If you are outside the specified speed range, the app enters standby mode and counts down 60 seconds. If you are not in the specified speed range for 60 seconds, your activity goes into standby mode and your earnis stopped.</p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-3" aria-expanded="false" aria-controls="accordion-3 .item-3">What will there be in App?</button></h2>
-                            <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-3">
-                                <div class="accordion-body">
-                                    <p class="mb-0">Map Screen, GoSocial, GoShare, NFT Marketplace, Wallet. </p>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="tab-4">
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-10">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-10 .item-1" aria-expanded="false" aria-controls="accordion-10 .item-1">What is GoWallet?</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-10">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">GoAction Module is a platform that allows you to integrate your Metamask and Trust Wallet, convert your Ecosystem tokens to GoAction tokens and transfer them through an exchange.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-10 .item-2" aria-expanded="false" aria-controls="accordion-10 .item-2">How to swap ECO to GAT?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-10">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can convert your Ecosystem tokens to GoAction tokens by clicking on the GoWallet’s swap section and submitting a conversion request.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-10 .item-3" aria-expanded="false" aria-controls="accordion-10 .item-3">Can I see ECO balance without wallet?</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-10">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can see your ECO balance in GoWallet without connecting a wallet.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-11">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-11 .item-1" aria-expanded="false" aria-controls="accordion-11 .item-1">What can be done after connect wallet?</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-11">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">After connecting your wallet, you can transfer your GoAction token to exchanges and convert your ECO token to GAT token.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-11 .item-2" aria-expanded="false" aria-controls="accordion-11 .item-2">Which web3 wallets fit to GoAction?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-11">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Metamask and Trust Wallet.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-11 .item-3" aria-expanded="false" aria-controls="accordion-11 .item-3">Can I send GoAction’s token to listed cryptocurrency exchanges?</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-11">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can do this by clicking the transfer button. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="tab-5">
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-1">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-1" aria-expanded="false" aria-controls="accordion-1 .item-1">How many NFTs are created by GoAction?</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-1">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">The first NFT collection consist of 4000 NFTs. 2000 Bike and 2000 Sneakers</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-2" aria-expanded="false" aria-controls="accordion-1 .item-2">What are the NFT features?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-1">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Power, Health and Durability</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-3" aria-expanded="false" aria-controls="accordion-1 .item-3">What are the NFT classifications?</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-1">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">LOW NFTs between 3-10 levels</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-4" aria-expanded="false" aria-controls="accordion-1 .item-4">How is NFT classification calculated?</button></h2>
+                                        <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-1">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">NFTs have 3 different features and these 3 different features have 10 different levels. Each level is calculated as 1 level. For example, an NFT with 3 levels of Power, 9 levels of Health, 7 levels of Durability. That is a MID NFT with 3+7+9=19 levels.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-5" aria-expanded="false" aria-controls="accordion-1 .item-5">Can the NFTs be upgraded?</button></h2>
+                                        <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-1">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">A Low NFT can be randomly upgraded up to a total of 10 levels, a MID NFT up to a total of 20 levels, a HIGH NFT up to a total of 28 levels.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-1 .item-6" aria-expanded="false" aria-controls="accordion-1 .item-6">How many different levels do NFTs have?</button></h2>
+                                        <div class="accordion-collapse collapse item-6" role="tabpanel" data-bs-parent="#accordion-1">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">29 different levels </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-3">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-1" aria-expanded="false" aria-controls="accordion-3 .item-1">How many different revenue models do NFTs provide?</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-3">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">1000 different revenue models</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-2" aria-expanded="false" aria-controls="accordion-3 .item-2">What are the features that affect NFTs' earnings multipliers?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-3">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Power increases the earnings multiplier of the ECO token you earn per km. Health increases the amount of Energy, i.e. the km of your activity. Durability increases the downtime of your NFT.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-3" aria-expanded="false" aria-controls="accordion-3 .item-3">What are the Durability’s earning multipliers?</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-3">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Basic=2.5 Times<br><br>1.level = 3 times<br><br>2.level = 3.25 times<br><br>3.level = 3.5 times<br><br>4.level = 3.75 times<br><br>5.level = 4 times<br><br>6.level = 4.25 times<br><br>7.level = 4.5 times<br><br>8.level = 4.75 times<br><br>9.level = 5 times<br><br>10.level = 5.25 times</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-4" aria-expanded="false" aria-controls="accordion-3 .item-4">What are the Health’s earning multipliers?</button></h2>
+                                        <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-3">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Basic(Hike=2km,Bike=4km)<br><br>1.level = (Hike=3km,Bike=6km)<br><br>2.level =(Hike=4km,Bike=8km)<br><br>3.level = (Hike=5km,Bike=10km)<br><br>4.level = (Hike=6km,Bike=12km)<br><br>5.level =(Hike=7km,Bike=14km)<br><br>6.level = (Hike=8km,Bike=16km)<br><br>7.level =(Hike=9km,Bike=18km)<br><br>8.level =(Hike=10km,Bike=20km)<br><br>9.level = (Hike=11km,Bike=22km)<br><br>10.level = (Hike=12km,Bike=24km)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-5" aria-expanded="false" aria-controls="accordion-3 .item-5">What are the Power’s earning multipliers?</button></h2>
+                                        <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-3">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Basic=1.0x<br><br>1.level = 1.20x<br><br>2.level = 1.25x<br><br>3.level = 1.30x<br><br>4.level = 1.40x<br><br>5.level = 1.50x<br><br>6.level = 1.60x<br><br>7.level = 1.70x<br><br>8.level = 1.80x<br><br>9.level = 1.90x<br><br>10.level = 2.0x</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-3 .item-6" aria-expanded="false" aria-controls="accordion-3 .item-6">Will NFTs be listed on app or be listed on other NFT marketplaces?</button></h2>
+                                        <div class="accordion-collapse collapse item-6" role="tabpanel" data-bs-parent="#accordion-3">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">NFTs will be listed on the app's module NFT marketplace and Opensea In this module, you can trade the NFT that fits you. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="tab-6">
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-12">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-12 .item-1" aria-expanded="false" aria-controls="accordion-12 .item-1">What is GoSocial?</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-12">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">By creating events on GoSocial, users can socialize with close friends or meet new people and earn more than their regular income. This allows users to expand their social network by engaging in more meaningful interactions with each other.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-12 .item-2" aria-expanded="false" aria-controls="accordion-12 .item-2">What does GoSocial include?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-12">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">In GoSocial, you can set a start and end point, create events, join the events of people you know or don't know in your immediate surroundings, socialize and earn more than usual.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-12 .item-3" aria-expanded="false" aria-controls="accordion-12 .item-3">What is events created by GoAction?</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-12">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Events created by GoAction have some businesses at the end point. Our users who participate in this activity and our users who successfully complete this activity can earn discounts from businesses with the code they earn special to the event.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-12 .item-4" aria-expanded="false" aria-controls="accordion-12 .item-4">What is benefit the events created by GoAction?</button></h2>
+                                        <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-12">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">The benefits of GoAction events are that they bring customers to businesses and discounts to users.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-12 .item-5" aria-expanded="false" aria-controls="accordion-12 .item-5">How do I create an event?</button></h2>
+                                        <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-12">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">On the GoSocial page, you can create an event simply by clicking the plus button at the top right and selecting the properties of the event you want to create. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-12 .item-6" aria-expanded="false" aria-controls="accordion-12 .item-6">What are the details of the event?</button></h2>
+                                        <div class="accordion-collapse collapse item-6" role="tabpanel" data-bs-parent="#accordion-12">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">On the event detail page, you can view the location, start and end point, date, time, event creator and participants' profile. There is also a button to join and send a message. You can easily contact the event owner by clicking the message button. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-12 .item-7" aria-expanded="false" aria-controls="accordion-12 .item-7">How are the events sorted on my page?</button></h2>
+                                        <div class="accordion-collapse collapse item-7" role="tabpanel" data-bs-parent="#accordion-12">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Events that are close to users in terms of location are ranked first. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-13">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-13 .item-1" aria-expanded="false" aria-controls="accordion-13 .item-1">Can I filter or sort events?</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-13">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can sort events by city, district and many other features.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-13 .item-2" aria-expanded="false" aria-controls="accordion-13 .item-2">Can I create a private event?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-13">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">After you create private events and get the event code, you can create private events with the people you share the code with.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-13 .item-3" aria-expanded="false" aria-controls="accordion-13 .item-3">How do I know event type?</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-13">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">The events that users see in the GoSocial section are public events. When creating an event, public or private options are asked to the user and the event is created accordingly.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-13 .item-4" aria-expanded="false" aria-controls="accordion-13 .item-4">What are the participant limitations for each event?</button></h2>
+                                        <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-13">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Events can be created for a minimum of 3 and a maximum of 15 people.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-13 .item-5" aria-expanded="false" aria-controls="accordion-13 .item-5">Can I view the users who created and participated in the event?</button></h2>
+                                        <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-13">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">On the detail page of the event, you can see and review the profile of the users who created and participated in the event.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-13 .item-6" aria-expanded="false" aria-controls="accordion-13 .item-6">Can I ask questions to the organizer before attending the event?</button></h2>
+                                        <div class="accordion-collapse collapse item-6" role="tabpanel" data-bs-parent="#accordion-13">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can contact the event owner by clicking the message button on the event detail page. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="tab-7">
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-14">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-14 .item-1" aria-expanded="false" aria-controls="accordion-14 .item-1">Can I upload photo to my profile?</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-14">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Users can upload as many photos as they want to their profile</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-14 .item-2" aria-expanded="false" aria-controls="accordion-14 .item-2">Is the statistics section accessible from the profile?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-14">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can view the statistics section directly on the profile page.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-14 .item-3" aria-expanded="false" aria-controls="accordion-14 .item-3">What’s in the statics?</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-14">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">the distance you have traveled in the activity, your profile rate, and where you are ranked in your country of residence.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-14 .item-4" aria-expanded="false" aria-controls="accordion-14 .item-4">Can I search any user on profile section?</button></h2>
+                                        <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-14">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can find them by typing their username in the search bar on the profile page.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-14 .item-5" aria-expanded="false" aria-controls="accordion-14 .item-5">Is the settings accesible from the profile?</button></h2>
+                                        <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-14">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">From the profile you can access the settings and personalize your account.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-14 .item-6" aria-expanded="false" aria-controls="accordion-14 .item-6">What’s in the settings?</button></h2>
+                                        <div class="accordion-collapse collapse item-6" role="tabpanel" data-bs-parent="#accordion-14">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can adjust your profile, security settings. You can also get an invitation code to invite users to the application, share it with your friend and earn ECO token gifts thanks to users who register with your code. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-14 .item-7" aria-expanded="false" aria-controls="accordion-14 .item-7">Can other users be followed?</button></h2>
+                                        <div class="accordion-collapse collapse item-7" role="tabpanel" data-bs-parent="#accordion-14">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can follow the users you want or send a follow request if their account is private. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-15">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-15 .item-1" aria-expanded="false" aria-controls="accordion-15 .item-1">&nbsp;Can I see the followers and followed users on profile?</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-15">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can see who is following you and how many people are following you in the area on your profile.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-15 .item-2" aria-expanded="false" aria-controls="accordion-15 .item-2">Can I make my profile private or public?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-15">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can make your profile either a private account or a public account.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-15 .item-3" aria-expanded="false" aria-controls="accordion-15 .item-3">Can I add bio on my profile?</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-15">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can add a biography to your profile and you can also add other social media accounts.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-15 .item-4" aria-expanded="false" aria-controls="accordion-15 .item-4">Can I chat with my followers in the DM box?</button></h2>
+                                        <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-15">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can exchange messages in the dm box with users who follow you and people who create events in the GoSocial section</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-15 .item-5" aria-expanded="false" aria-controls="accordion-15 .item-5">Can I report and block my followers if necessary?</button></h2>
+                                        <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-15">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can report and block users by letting us know about content that offends you.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-15 .item-6" aria-expanded="false" aria-controls="accordion-15 .item-6">Can photos, voice messages etc. be sent from the DM Box?</button></h2>
+                                        <div class="accordion-collapse collapse item-6" role="tabpanel" data-bs-parent="#accordion-15">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can send a photo voice message from the dm box. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="tab-8">
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-16">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-16 .item-1" aria-expanded="false" aria-controls="accordion-16 .item-1">What is GoDate?</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-16">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">GoDate is designed to enable users to have more meaningful interactions with each other. This module matches users based on their common interests, suggests optional random routes, and organizes users' meetings by providing discounts from businesses.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-16 .item-2" aria-expanded="false" aria-controls="accordion-16 .item-2">How is GoDate different from other Date apps?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-16">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Unlike other apps, GoDate plans users' first date by suggesting random routes to users, directing them to a business at the end of these routes and providing discounts from that business.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-16 .item-3" aria-expanded="false" aria-controls="accordion-16 .item-3">Do I have to do an activity to get discounts from businesses?</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-16">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You don't need to set a route to get discounts from businesses, users can earn discounts from businesses that partner with us in the district and date of their choice on a daily basis and plan their first dates with GoAction's support.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-16 .item-4" aria-expanded="false" aria-controls="accordion-16 .item-4">How does the GoDate system work?</button></h2>
+                                        <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-16">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">You can use it in a simple way by clicking on GoDate from the bottom bar and swiping right on the people you like. If there is a mutual match, a private message box will open and you will have access to their GoAction profile.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-16 .item-5" aria-expanded="false" aria-controls="accordion-16 .item-5">How will the matches be made at GoDate?</button></h2>
+                                        <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-16">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Before logging in to GoDate, users will be asked questions that can generally identify the people they need to mark. Users will be matched with people with whom the answers to these questions are close in percentage terms and with people in their immediate surroundings.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-16 .item-6" aria-expanded="false" aria-controls="accordion-16 .item-6">How is our Godate profile created?</button></h2>
+                                        <div class="accordion-collapse collapse item-6" role="tabpanel" data-bs-parent="#accordion-16">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">GoAction creates your GoDate profile with questions to be asked before you log in, your name and photos from your GoAction profile. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="accordion" role="tablist" id="accordion-17">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-17 .item-1" aria-expanded="false" aria-controls="accordion-17 .item-1">Can GoDate users view my GoAction profile?</button></h2>
+                                        <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-17">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">Only users' names appear in the GoDate profile. No user can access each other's profiles without being matched.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-17 .item-2" aria-expanded="false" aria-controls="accordion-17 .item-2">If I do an activity with the person I meet on the route I created in GoDate, will I earn more than normal?</button></h2>
+                                        <div class="accordion-collapse collapse item-2" role="tabpanel" data-bs-parent="#accordion-17">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">If you do an activity together on the created route, you will earn 1.5 times more than usual.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-17 .item-3" aria-expanded="false" aria-controls="accordion-17 .item-3">How can I earn discounts from businesses with GoDate?</button></h2>
+                                        <div class="accordion-collapse collapse item-3" role="tabpanel" data-bs-parent="#accordion-17">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">If you are creating a route, at the end of the activity, that is, when you finish the activity in front of the business we have determined, you will see a code specific to that business, date and time and you can get a discount with this code. If you are not creating a route, you can optionally view the businesses in the district you have selected on the page with the Create route option, click on one of these businesses to get information and get a discount code specific to the date you will go.&nbsp;&nbsp;</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-17 .item-4" aria-expanded="false" aria-controls="accordion-17 .item-4">Where will the button to schedule a first date be located?</button></h2>
+                                        <div class="accordion-collapse collapse item-4" role="tabpanel" data-bs-parent="#accordion-17">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">It will only be in your inbox with the person you are mutually matched with.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-17 .item-5" aria-expanded="false" aria-controls="accordion-17 .item-5">Who does the planning for the first date?</button></h2>
+                                        <div class="accordion-collapse collapse item-5" role="tabpanel" data-bs-parent="#accordion-17">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">If a route is to be created, both parties can send routes, but only one route can be selected. If no route is to be created, both parties need to click on the business they are going to and get a discount code.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-17 .item-6" aria-expanded="false" aria-controls="accordion-17 .item-6">How many appointments can be scheduled per day?</button></h2>
+                                        <div class="accordion-collapse collapse item-6" role="tabpanel" data-bs-parent="#accordion-17">
+                                            <div class="accordion-body">
+                                                <p class="mb-0">1 appointment per day can be scheduled. </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="accordion mobildegoster" role="tablist" id="accordion-2">
+            <div class="accordion d-none" role="tablist" id="accordion-2">
                 <div class="accordion-item">
                     <h2 class="accordion-header" role="tab"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-2 .item-1" aria-expanded="false" aria-controls="accordion-2 .item-1">What is goaction</button></h2>
                     <div class="accordion-collapse collapse item-1" role="tabpanel" data-bs-parent="#accordion-2">
@@ -597,7 +1286,7 @@ reduce carbon emissions to the nature.">
                     </div>
                 </div>
             </div>
-            <div class="mt-3 text-center"><a class="btn btn-link text-white p-0" role="button" style="font-family: 'Aquire';" href="faq.html">Isn't your question here? See more FAQ</a></div>
+            <div class="mt-3 text-center"></div>
         </div>
     </section>
     <section class="py-5">
@@ -633,114 +1322,295 @@ reduce carbon emissions to the nature.">
     <section></section>
     <section class="py-4 py-xl-5">
         <div class="container">
-            <div class="d-flex flex-column justify-content-between align-items-center flex-lg-row p-4 p-lg-5" style="background-image: url(&quot;assets/img/area.svg&quot;);background-size: cover;background-position: top center;border: 1px #21965a solid;">
-                <div class="text-center text-lg-start py-3 py-lg-1">
-                    <h2 class="mb-2 greenshadow text" style="font-family: 'Aquire';"><strong>Subscribe to our newsletter</strong></h2>
-                    <p class="mb-0" style="font-family: 'Montserrat';color: #fff;">Get news from us</p>
+            <div class="subscribe-div">
+                <div class="text-center text-lg-start py-3 py-lg-1 d-grid gap-5 my-5">
+                    <h2 class="mb-2 text greenshadow fw-bold h1 display-1 text-center aquire"><strong>LET'S CONNECT</strong></h2>
+                    <form class="d-flex justify-content-center flex-wrap my-2 gap-1 gap-md-3" data-bss-recipient="c3a294b8be098828031f764cbfb5a8aa">
+                        <div class="my-2"><input type="email" id="email" class="mygreyinput" name="email" placeholder="Enter Your Email"></div>
+                        <div class="my-2"><button id="submit" class="greybutton" type="submit" name="submit">Subscribe</button></div>
+                    </form>
                 </div>
-                <form class="d-flex justify-content-center flex-wrap my-2" data-bss-recipient="c3a294b8be098828031f764cbfb5a8aa">
-                    <div class="my-2"><input type="email" id="email" class="myinputt" name="email" placeholder="Your Email"></div>
-                    <div class="my-2"><button class="btn ms-sm-2 mybutton" id="submit" type="submit" name="submit">SUBSCRIBE</button></div>
-                </form>
+                <div class="other-footer-flex-div">
+                    <p class="mb-0 text-muted small text-center text-md-start">GoAction © 2023 | All rights reserved</p>
+                    <ul class="list-inline footer-boring-links gap-md-3 d-flex mb-0 links-list">
+                        <li class="list-inline-item"><a href="mailto:hello@goaction.tech">Career</a></li>
+                        <li class="list-inline-item"><a href="mailto:hello@goaction.tech">Partnership</a></li>
+                        <li class="list-inline-item"><a href="mailto:hello@goaction.tech">Support</a></li>
+                        <li class="list-inline-item"><a href="privacy-policy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
             </div>
-            <div></div>
         </div>
     </section>
-    <section class="mt-5">
+    <section class="mt-5"></section>
+    <footer class="text-center footer">
         <div class="container">
-            <ul class="list-unstyled socialiconlist">
-                <li><a href="https://instagram.com/goactionlabs" target="_blank"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-instagram">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <rect x="4" y="4" width="16" height="16" rx="4"></rect>
-                                <circle cx="12" cy="12" r="3"></circle>
-                                <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
-                            </svg><span class="masaustundegoster">INSTAGRAM</span></span></a></li>
-                <li><a href="https://medium.com/@goaction"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-medium">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <rect x="4" y="4" width="16" height="16" rx="2"></rect>
-                                <path d="M8 9h1l3 3l3 -3h1"></path>
-                                <line x1="8" y1="15" x2="10" y2="15"></line>
-                                <line x1="14" y1="15" x2="16" y2="15"></line>
-                                <line x1="9" y1="9" x2="9" y2="15"></line>
-                                <line x1="15" y1="9" x2="15" y2="15"></line>
-                            </svg><span class="masaustundegoster">Medium</span></span></a></li>
-                <li><a href="https://twitter.com/GoActionLabs" target="_blank"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-twitter">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path>
-                            </svg><span class="masaustundegoster">TWITTER</span></span></a></li>
-                <li><a href="https://www.linkedin.com/company/goactiontech/" target="_blank"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-linkedin">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <rect x="4" y="4" width="16" height="16" rx="2"></rect>
-                                <line x1="8" y1="11" x2="8" y2="16"></line>
-                                <line x1="8" y1="8" x2="8" y2="8.01"></line>
-                                <line x1="12" y1="16" x2="12" y2="11"></line>
-                                <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
-                            </svg><span class="masaustundegoster"><span style="background-color: rgba(0, 30, 14, 0.81);">Linkedin</span><br></span></span></a></li>
-                <li><a href="https://discord.gg/sbeeRWSTnW" target="_blank"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-discord">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <circle cx="9" cy="12" r="1"></circle>
-                                <circle cx="15" cy="12" r="1"></circle>
-                                <path d="M7.5 7.5c3.5-1 5.5-1 9 0"></path>
-                                <path d="M7 16.5c3.5 1 6.5 1 10 0"></path>
-                                <path d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833 -1.667 3.5 -3c.667 -1.667 .5 -5.833 -1.5 -11.5c-1.457 -1.015 -3 -1.34 -4.5 -1.5l-1 2.5"></path>
-                                <path d="M8.5 17c0 1 -1.356 3 -1.832 3c-1.429 0 -2.698 -1.667 -3.333 -3c-.635 -1.667 -.476 -5.833 1.428 -11.5c1.388 -1.015 2.782 -1.34 4.237 -1.5l1 2.5"></path>
-                            </svg><span class="masaustundegoster">DISCORD</span></span></a></li>
-                <li><a href="https://t.me/GoActionLabs" target="_blank"><span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-telegram">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                                <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4"></path>
-                            </svg><span class="masaustundegoster">Telegram</span></span></a></li>
-            </ul>
-        </div>
-    </section>
-    <section>
-        <div id="map" class="greenshadow"></div>
-    </section>
-    <footer class="text-white">
-        <div class="container py-4 py-lg-5">
-            <div class="row justify-content-center">
-                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column">
-                    <h3 class="fs-6 text-white">Featured Sections</h3>
-                    <ul class="list-unstyled">
-                        <li><a class="link-light" href="#tokenomic">Tokenomics</a></li>
-                        <li><a class="link-light" href="#roadmap">Roadmap</a></li>
-                        <li><a class="link-light" href="#app">App</a></li>
+            <div class="row row-cols-1 row-cols-lg-3 px-0 px-md-4">
+                <div class="col-12 col-md-5"><img src="assets/img/Main-Logo-Horizontal-Light.svg" width="200"></div>
+                <div class="col-12 col-md-2">
+                    <p class="my-2 text-muted">Mobilize your social media.</p>
+                </div>
+                <div class="col-12 col-md-5">
+                    <ul class="footer-social-list">
+                        <li><a href="https://instagram.com/goactionlabs" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-instagram">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                    <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
+                                </svg></a></li>
+                        <li><a href="https://medium.com/@goaction"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-medium">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                                    <path d="M8 9h1l3 3l3 -3h1"></path>
+                                    <line x1="8" y1="15" x2="10" y2="15"></line>
+                                    <line x1="14" y1="15" x2="16" y2="15"></line>
+                                    <line x1="9" y1="9" x2="9" y2="15"></line>
+                                    <line x1="15" y1="9" x2="15" y2="15"></line>
+                                </svg></a></li>
+                        <li><a href="https://twitter.com/GoActionLabs" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-twitter">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z"></path>
+                                </svg></a></li>
+                        <li><a href="https://www.linkedin.com/company/goactiontech/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-linkedin">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                                    <line x1="8" y1="11" x2="8" y2="16"></line>
+                                    <line x1="8" y1="8" x2="8" y2="8.01"></line>
+                                    <line x1="12" y1="16" x2="12" y2="11"></line>
+                                    <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+                                </svg></a></li>
+                        <li><a href="https://discord.gg/sbeeRWSTnW" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-discord">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <circle cx="9" cy="12" r="1"></circle>
+                                    <circle cx="15" cy="12" r="1"></circle>
+                                    <path d="M7.5 7.5c3.5-1 5.5-1 9 0"></path>
+                                    <path d="M7 16.5c3.5 1 6.5 1 10 0"></path>
+                                    <path d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833 -1.667 3.5 -3c.667 -1.667 .5 -5.833 -1.5 -11.5c-1.457 -1.015 -3 -1.34 -4.5 -1.5l-1 2.5"></path>
+                                    <path d="M8.5 17c0 1 -1.356 3 -1.832 3c-1.429 0 -2.698 -1.667 -3.333 -3c-.635 -1.667 -.476 -5.833 1.428 -11.5c1.388 -1.015 2.782 -1.34 4.237 -1.5l1 2.5"></path>
+                                </svg></a></li>
+                        <li><a href="https://t.me/GoActionLabs" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-telegram">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4"></path>
+                                </svg></a></li>
                     </ul>
                 </div>
-                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column">
-                    <h3 class="fs-6 text-white">Info</h3>
-                    <ul class="list-unstyled">
-                        <li><a class="link-light" href="faq.html">FAQ</a></li>
-                        <li><a class="link-light" href="https://go-action.gitbook.io/goaction-whitepaper/" target="_blank">Whitepaper</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column">
-                    <h3 class="fs-6 text-white">Contact</h3>
-                    <ul class="list-unstyled">
-                        <li><a class="link-light" href="mailto:hello@goaction.tech"><span style="color: rgb(255, 255, 255);">Career</span></a></li>
-                        <li><a class="link-light" href="mailto:business@goaction.tech">Partnership</a></li>
-                        <li><a class="link-light" href="mailto:hello@goaction.tech">Support</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last">
-                    <div class="fw-bold d-flex align-items-center mb-2"><img class="footer-logo" src="assets/img/Main-Logo-Horizontal-Light.svg"></div>
-                    <p class="text-muted">Mobilize your social media.</p>
-                </div>
-            </div>
-            <hr>
-            <div class="d-flex justify-content-between align-items-center pt-3">
-                <p class="mb-0 w-100 text-center"><span style="color: rgb(108, 117, 125);">GoAction © 2022 |&nbsp;All rights reserved</span></p>
             </div>
         </div>
     </footer>
     <div class="toast fade text-bg-dark hide" role="alert" id="toast-1">
-        <div class="toast-header text-bg-dark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" class="me-2">
-                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-                <path d="M494.6 255.9c-65.63-.8203-118.6-54.14-118.6-119.9c-65.74 0-119.1-52.97-119.8-118.6c-25.66-3.867-51.8 .2346-74.77 12.07L116.7 62.41C93.35 74.36 74.36 93.35 62.41 116.7L29.6 181.2c-11.95 23.44-16.17 49.92-12.07 75.94l11.37 71.48c4.102 25.9 16.29 49.8 34.81 68.32l51.36 51.39C133.6 466.9 157.3 479 183.2 483.1l71.84 11.37c25.9 4.101 52.27-.1172 75.59-11.95l64.81-33.05c23.32-11.84 42.31-30.82 54.14-54.14l32.93-64.57C494.3 307.7 498.5 281.4 494.6 255.9zM176 367.1c-17.62 0-32-14.37-32-31.1s14.38-31.1 32-31.1s32 14.37 32 31.1S193.6 367.1 176 367.1zM208 208c-17.62 0-32-14.37-32-31.1s14.38-31.1 32-31.1s32 14.37 32 31.1S225.6 208 208 208zM368 335.1c-17.62 0-32-14.37-32-31.1s14.38-31.1 32-31.1s32 14.37 32 31.1S385.6 335.1 368 335.1z"></path>
-            </svg><strong class="me-auto" style="font-family: 'Aquire';">We use cookies</strong><button class="btn-close btn-close-white ms-2 mb-1 close" data-bs-dismiss="toast"></button></div>
-        <div class="toast-body" role="alert">
-            <p style="font-family: 'Montserrat';">By continuing to browse the site, you agree to our <a class="fw-bold text-white" href="privacy-policy.html">privacy policy</a>.</p>
+        <div class="toast-header text-bg-dark">
+            <div class="d-flex align-items-center gap-1 gap-md-2">  <div class="cookie">
+    <svg class="piece left first" viewBox="0 0 6 6">
+      <path
+        d="M2.7712 3.24799C2.49222 3.48546 2.25276 3.56275 2.0468 3.54193C1.83835 3.52086 1.60578 3.39352 1.35475 3.09775C1.32929 3.06776 1.30223 3.03622 1.27405 3.00337C1.14064 2.84789 0.98195 2.66294 0.847989 2.47237C0.767445 2.35779 0.701633 2.24904 0.658271 2.1518C0.613433 2.05125 0.602085 1.98386 0.605059 1.945C0.605871 1.9344 0.615589 1.89561 0.682208 1.82564C0.746183 1.75846 0.839337 1.68684 0.954432 1.61004C1.04061 1.55253 1.1302 1.4978 1.22128 1.44216C1.25177 1.42354 1.28242 1.40481 1.31317 1.38585C1.42939 1.31416 1.55181 1.23617 1.6446 1.15718C1.92359 0.919702 2.16305 0.842405 2.36903 0.863218C2.57748 0.884281 2.81005 1.0116 3.06108 1.30737C3.15208 1.4146 3.18572 1.55517 3.18078 1.74639C3.17737 1.87881 3.15862 2.00137 3.13819 2.13496C3.12652 2.21129 3.11429 2.29122 3.10406 2.37865C3.06203 2.73781 2.97771 3.07221 2.7712 3.24799Z"
+      />
+    </svg>
+    <svg class="piece left second" viewBox="0 0 6 6">
+      <path
+        d="M3.41877 4.34598C3.25832 4.4149 3.05082 4.4003 2.76355 4.20721C2.47228 4.01145 2.13466 3.65292 1.75621 3.11101C1.72207 3.06213 1.68536 3.00983 1.64671 2.95478C1.46019 2.68906 1.22858 2.35912 1.02389 2.0393C0.900476 1.84648 0.789635 1.6616 0.705989 1.5005C0.621272 1.33733 0.575794 1.21961 0.562939 1.15003C0.58648 1.13809 0.632947 1.12218 0.714191 1.10853C0.786405 1.09639 0.861375 1.08938 0.943475 1.0817C0.972457 1.07899 1.00233 1.07619 1.03328 1.07306C1.13458 1.06281 1.27078 1.04742 1.37711 1.00175C1.53757 0.932828 1.74507 0.947428 2.03234 1.1405C2.32361 1.33626 2.66123 1.69477 3.03968 2.23668C3.34391 2.67231 3.3799 3.03115 3.41841 3.41501C3.42664 3.49709 3.43499 3.58032 3.4461 3.66569C3.47107 3.85758 3.48486 4.04125 3.46883 4.18288C3.46088 4.25308 3.44701 4.29854 3.43354 4.32493C3.42733 4.33711 3.42251 4.34262 3.42064 4.3445C3.41938 4.34577 3.41903 4.34589 3.41884 4.34596C3.41882 4.34597 3.41879 4.34597 3.41877 4.34598Z"
+      />
+    </svg>
+    <svg class="piece left third" viewBox="0 0 6 6">
+      <path
+        d="M1.88258 2.82165C1.68571 2.99149 1.53057 3.03982 1.4116 3.03138C1.29397 3.02305 1.15245 2.95495 0.991176 2.76217C0.973255 2.74075 0.954403 2.71847 0.934921 2.69544C0.844059 2.58805 0.739488 2.46446 0.651753 2.33625C0.599125 2.25934 0.558447 2.18896 0.532976 2.12821C0.50891 2.07081 0.505164 2.03786 0.505506 2.0242C0.507356 2.0202 0.515919 2.00229 0.546947 1.96967C0.589585 1.92486 0.653164 1.87464 0.735084 1.8184C0.796261 1.7764 0.85946 1.73644 0.924784 1.69515C0.946903 1.68116 0.969266 1.66702 0.991876 1.6526C1.07531 1.59938 1.16688 1.53934 1.2377 1.47824C1.43458 1.30839 1.58972 1.26006 1.7087 1.26849C1.82633 1.27682 1.96785 1.34491 2.12912 1.53768C2.17046 1.5871 2.19186 1.66082 2.18457 1.79015C2.17948 1.88042 2.16475 1.96095 2.14795 2.05279C2.1379 2.10773 2.12711 2.16672 2.1172 2.23426C2.07985 2.48878 2.01506 2.70735 1.88258 2.82165Z"
+      />
+    </svg>
+
+    <svg class="piece right first" viewBox="0 0 6 6">
+      <path
+        d="M0.808026 4.14106C0.697138 4.00615 0.653362 3.8028 0.758781 3.47311C0.865663 3.13884 1.11595 2.71471 1.53098 2.20029C1.56842 2.15388 1.60842 2.10406 1.65053 2.0516C1.85377 1.79844 2.10614 1.48409 2.35628 1.19841C2.50709 1.02617 2.65378 0.868216 2.7852 0.743003C2.91831 0.616187 3.0187 0.539717 3.08194 0.507989C3.09997 0.527271 3.1282 0.567467 3.16394 0.641692C3.19571 0.707668 3.22333 0.777716 3.25358 0.854427C3.26426 0.881507 3.27526 0.909417 3.28689 0.938271C3.32496 1.03271 3.37767 1.15923 3.45115 1.24862C3.56205 1.38353 3.60583 1.58689 3.50042 1.91658C3.39355 2.25084 3.14327 2.67497 2.72824 3.18939C2.3946 3.60293 2.05999 3.73746 1.70205 3.88137C1.62551 3.91214 1.5479 3.94334 1.46901 3.9778C1.29167 4.05524 1.11911 4.11964 0.978619 4.1437C0.908979 4.15562 0.861456 4.15496 0.832362 4.14938C0.818932 4.1468 0.812294 4.14371 0.809964 4.14243C0.808398 4.14158 0.808186 4.14128 0.808069 4.14111C0.808054 4.14109 0.808041 4.14107 0.808026 4.14106Z"
+      />
+    </svg>
+    <svg class="piece right second" viewBox="0 0 6 6">
+      <path
+        d="M2.70059 2.64136C2.46134 2.76484 2.13517 2.89564 1.84156 2.92885C1.5464 2.96224 1.36117 2.89394 1.26397 2.72121C1.25045 2.69718 1.2289 2.62181 1.21975 2.4773C1.2113 2.34363 1.21497 2.18312 1.22615 2.01696C1.24853 1.68423 1.29918 1.35453 1.32618 1.22262C1.34456 1.13282 1.43856 0.929989 1.57516 0.717771C1.6403 0.616577 1.70892 0.523007 1.77274 0.449687C1.7976 0.421122 1.81952 0.398221 1.83823 0.380186C1.84397 0.426349 1.84824 0.480898 1.852 0.544768C1.85419 0.582023 1.85617 0.622525 1.85827 0.665347C1.86486 0.799893 1.87258 0.957347 1.89139 1.10896C1.91635 1.31015 1.96375 1.53344 2.07226 1.72629C2.15676 1.87646 2.30061 1.9628 2.41738 2.01665C2.52537 2.06646 2.64667 2.10413 2.74453 2.13452C2.75485 2.13772 2.76492 2.14085 2.77468 2.1439C2.85567 2.16921 2.9131 2.18873 2.95294 2.20595C2.927 2.29841 2.89626 2.38592 2.85745 2.46092C2.80739 2.55766 2.7541 2.61375 2.70059 2.64136ZM3.00365 2.23307C3.00364 2.23307 3.00339 2.23289 3.00296 2.2325L3.00365 2.23307Z"
+      />
+    </svg>
+    <svg class="piece right third" viewBox="0 0 6 6">
+      <path
+        d="M0.785419 2.23993C0.62072 2.08292 0.567012 1.9372 0.57476 1.79749C0.583119 1.64677 0.665624 1.45336 0.875986 1.21611C0.897312 1.19206 0.919704 1.16657 0.943014 1.14004C1.0532 1.01463 1.1839 0.865863 1.3195 0.734951C1.40109 0.656174 1.47824 0.590089 1.54701 0.543032C1.6099 0.49999 1.65009 0.483847 1.66943 0.47895C1.67489 0.48133 1.68511 0.486722 1.7008 0.498357C1.74125 0.528339 1.79024 0.579556 1.84879 0.653038C1.89225 0.707572 1.93343 0.764469 1.97683 0.824423C1.99173 0.845003 2.00689 0.865943 2.02249 0.887271C2.07828 0.963546 2.14439 1.05145 2.21293 1.11679C2.37763 1.2738 2.43135 1.41953 2.4236 1.55925C2.41525 1.70996 2.33275 1.90338 2.1224 2.14062C2.04883 2.22359 1.95303 2.26687 1.82308 2.29082C1.72928 2.30811 1.64597 2.31246 1.55069 2.31742C1.49363 2.3204 1.43228 2.3236 1.36182 2.32994C1.23706 2.34116 1.11455 2.34487 1.00721 2.32922C0.899428 2.31351 0.828999 2.28148 0.785419 2.23993ZM1.6646 0.477221C1.6646 0.477202 1.66489 0.477255 1.66549 0.47744L1.6646 0.477221Z"
+      />
+    </svg>
+
+    <svg class="bottom" viewBox="0 0 40 40">
+      <path
+        d="M2.48441 15.349L4.59888 14.2917C4.85436 14.164 5.15227 14.1516 5.41748 14.2577L7.01918 14.8984C7.18551 14.9649 7.36666 14.9855 7.54369 14.9581L10.2619 14.5369C10.4184 14.5127 10.5669 14.4516 10.6952 14.3587L11.5413 13.7463C11.7211 13.6161 11.9391 13.5495 12.161 13.5569L14.3581 13.6301C14.4823 13.6342 14.6046 13.6615 14.7187 13.7104L17.4423 14.8777C17.6283 14.9573 17.834 14.9788 18.0324 14.9391L21.9368 14.1582C22.1549 14.1146 22.3812 14.1449 22.5801 14.2444L23.6005 14.7545C23.9063 14.9074 24.269 14.8935 24.5622 14.7176L26.009 13.8495C26.2364 13.713 26.5087 13.6725 26.766 13.7368L27.8235 14.0012C28.0551 14.0591 28.2997 14.0322 28.5132 13.9255L29.5533 13.4054C29.8349 13.2647 30.1662 13.2647 30.4478 13.4054L31.3715 13.8673C31.653 14.0081 31.9844 14.0081 32.2659 13.8673L34.1755 12.9125C34.4127 12.7939 34.6873 12.7744 34.9389 12.8583L37.004 13.5466C37.7656 15.5521 38.1825 17.7274 38.1825 20C38.1825 23.8914 37.0826 25.6791 35.0007 28.6364C34.6886 29.0797 34.3993 29.6008 34.1039 30.1327C33.57 31.0943 33.0165 32.0912 32.2734 32.7273C30.9167 33.8888 28.9323 35.1843 27.2734 35.9091C26.4233 36.2805 25.8042 36.7658 25.2198 37.2239C24.2732 37.9658 23.4177 38.6364 21.8189 38.6364C20.3379 38.6364 18.6993 37.7667 17.1864 36.9638C16.4123 36.553 15.6711 36.1596 15.0007 35.9091C14.1012 35.573 13.0618 35.3409 12.004 35.1048C9.86524 34.6273 7.65102 34.1329 6.36435 32.7273C5.67437 31.9735 5.23043 30.8685 4.80197 29.802C4.57255 29.231 4.34756 28.671 4.09162 28.1818C2.77465 25.665 2.27344 23.0375 2.27344 20V19.9479C2.27342 18.3715 2.27341 16.8422 2.40516 15.3844C2.43202 15.3738 2.45846 15.3619 2.48441 15.349Z"
+        class="background"
+      />
+      <path
+        class="shine"
+        d="M33.4865 13.257C33.5807 13.7585 33.6395 14.3329 33.6385 15C33.6369 16.065 32.2344 15.8824 31.0723 15.731C30.2504 15.6239 29.5487 15.5325 29.5476 15.9091C29.5464 16.3018 29.8295 16.4247 30.2121 16.5909C30.7153 16.8093 31.3904 17.1024 31.8176 18.1818C32.2653 19.3131 33.4697 19.7053 34.4165 20.0136C35.3718 20.3246 36.0649 20.5503 35.454 21.3636C34.526 22.5991 33.9018 22.9047 33.4877 23.1075C32.8833 23.4034 32.7267 23.4801 32.7267 25.9091C32.7267 27.6666 30.3301 27.086 28.1123 26.5487C26.497 26.1574 24.9766 25.789 24.5459 26.3637C23.7675 27.4024 24.4695 28.0988 25.3316 28.954C25.5208 29.1417 25.7178 29.3371 25.9085 29.5455C26.9368 30.6688 25.1785 31.47 23.7352 32.1278C22.4793 32.7001 21.4619 33.1637 22.7267 33.6364C23.9989 34.1118 23.262 35.4768 22.5726 36.7538C22.1888 37.4649 21.8197 38.1487 21.8203 38.6364C23.4191 38.6364 24.2746 37.9658 25.2212 37.2239C25.8056 36.7658 26.4247 36.2805 27.2749 35.9091C28.9337 35.1843 30.9181 33.8888 32.2749 32.7273C33.0179 32.0912 33.5714 31.0943 34.1053 30.1327C34.4007 29.6008 34.69 29.0797 35.0021 28.6364C37.084 25.6791 38.1839 23.8914 38.1839 20C38.1839 17.7276 37.767 15.5525 37.0056 13.5471L34.9389 12.8583C34.6873 12.7744 34.4127 12.7939 34.1755 12.9125L33.4865 13.257Z"
+      />
+      <g class="dark">
+        <path
+          d="M2.48441 15.3489L4.59888 14.2917C4.85436 14.164 5.15227 14.1516 5.41748 14.2577L7.01918 14.8983C7.18551 14.9649 7.36666 14.9855 7.54369 14.9581L8.48555 14.8121C8.31921 15.525 7.66512 15.9791 7.06489 16.3957C6.93431 16.4864 6.80627 16.5752 6.68636 16.6646C6.06807 17.1255 5.26433 17.6213 4.45484 17.53C3.04872 17.3714 2.26695 16.672 2.12383 15.4508C2.2491 15.4399 2.37147 15.4054 2.48441 15.3489Z"
+        />
+        <path
+          d="M28.6948 26.5568C27.4697 26.6701 26.1259 26.7943 25.0223 27.8459C22.5495 30.2021 22.0841 32.2332 23.6421 33.8684C23.8794 34.1175 24.1172 34.5184 24.371 34.9463C24.9334 35.8945 25.5743 36.9751 26.463 36.8291C27.6909 36.6273 29.7571 34.6434 31.0658 33.3868L31.0694 33.3833L31.0702 33.3825L31.0742 33.3787C31.1931 33.2645 31.3057 33.1564 31.4108 33.0563C33.8836 30.7002 34.3491 28.6691 32.7911 27.0339C32.0686 26.2756 30.6261 26.3305 29.418 26.4822C29.1837 26.5116 28.9416 26.534 28.6948 26.5568Z"
+        />
+        <path
+          d="M14.5461 31.8182C14.5461 32.5588 14.1441 32.8685 13.6682 33.2351C13.5104 33.3567 13.3445 33.4845 13.1825 33.6363C12.6197 34.1637 10.892 34.5454 10.0773 34.5454C8.32069 34.5454 5.00028 32.2937 5.00028 30.4545C5.00028 29.8099 5.79225 29.2637 6.48108 28.7887C6.79452 28.5725 7.08661 28.3711 7.273 28.1818C7.67541 27.7731 8.88295 27.9388 9.86402 28.0735C10.279 28.1304 10.6535 28.1818 10.9094 28.1818C12.666 28.1818 14.5461 29.979 14.5461 31.8182Z"
+        />
+        <path
+          d="M36.5215 22.3681C36.5987 22.3362 36.6761 22.3041 36.753 22.2727C38.456 21.5781 38.7898 19.0138 38.1264 17.3872C38.0298 17.1503 37.9359 16.7842 37.8319 16.3784C37.586 15.4192 37.2834 14.2385 36.753 14.0202C35.9675 13.6969 33.5962 14.1912 32.7277 14.5454C31.0247 15.2401 30.7031 17.9189 31.3666 19.5455C31.6742 20.2998 33.3904 22.4054 34.0912 22.7272C34.8331 23.068 35.6826 22.7159 36.5215 22.3681Z"
+        />
+        <path
+          d="M5.48425 27.7968C5.43871 27.8024 5.39299 27.8083 5.34721 27.8142C4.85143 27.878 4.34964 27.9426 4.00379 27.6475C3.6771 27.3688 3.06521 25.9719 3.00933 25.5171C2.88884 24.5364 3.44247 23.1316 4.44729 23.0081C4.95976 22.9452 6.29139 23.0297 6.66295 23.3218C6.91382 23.519 6.90612 24.2043 6.89986 24.761C6.89722 24.9965 6.89483 25.209 6.91238 25.3518C7.03287 26.3325 6.48908 27.6734 5.48425 27.7968Z"
+        />
+        <path
+          d="M21.7208 33.8131L21.7108 33.7717C21.6397 33.4676 20.9747 33.4003 20.4937 33.5128C20.4237 33.5292 20.3192 33.5446 20.2035 33.5618C19.9296 33.6023 19.5923 33.6523 19.4979 33.7456C19.3581 33.8838 19.3303 34.3058 19.3666 34.4608C19.4377 34.7649 20.1342 34.8304 20.6153 34.7179C20.8383 34.6658 21.519 34.3682 21.6527 34.245C21.7943 34.1146 21.7573 33.963 21.7208 33.8131Z"
+        />
+        <path
+          d="M5.83083 21.0403C6.04548 21.4136 6.51019 22.2219 6.36336 22.4913C6.28622 22.6328 5.77576 22.5727 5.26733 22.5128C4.82295 22.4605 4.38012 22.4084 4.22956 22.4912C3.98291 22.627 3.69984 22.8727 3.42496 23.1113C2.92403 23.5461 2.45027 23.9573 2.27364 23.6363C2.13413 23.3828 1.67314 21.6572 1.8193 21.3636C1.95973 21.0816 3.29495 20.1877 3.63605 20C4.33218 19.6169 5.48476 20.4156 5.75831 20.9128C5.7761 20.9451 5.80122 20.9888 5.83083 21.0403Z"
+        />
+        <path
+          d="M19.7844 36.0194L19.7867 35.9888C19.8042 35.7645 19.4102 35.5769 19.0928 35.5521C19.0466 35.5485 18.9796 35.5369 18.9053 35.5242C18.7293 35.4939 18.5123 35.4565 18.4357 35.5007C18.3222 35.566 18.2204 35.8504 18.2114 35.9648C18.1939 36.1891 18.6076 36.3821 18.925 36.407C19.0722 36.4185 19.5492 36.3584 19.6559 36.3021C19.7689 36.2424 19.7767 36.1302 19.7844 36.0194Z"
+        />
+        <path
+          d="M15.5961 33.4468C15.6296 33.2701 15.6635 33.0914 15.8985 33.0257C16.1204 32.9637 17.081 32.996 17.3726 33.0545C18.0013 33.1805 18.7947 33.604 18.7231 33.961C18.6866 34.143 18.4372 34.5741 18.2003 34.6488C18.0404 34.6992 17.6147 34.5805 17.2688 34.4839C17.1225 34.4431 16.9904 34.4063 16.8988 34.3879C16.2701 34.2619 15.5151 33.8526 15.5867 33.4956C15.5899 33.4794 15.5931 33.463 15.5961 33.4468Z"
+        />
+      </g>
+      <path
+        d="M2.48441 15.349L4.59888 14.2917C4.85436 14.164 5.15227 14.1516 5.41748 14.2577L7.01918 14.8984C7.18551 14.9649 7.36666 14.9855 7.54369 14.9581L10.2619 14.5369C10.4184 14.5127 10.5669 14.4516 10.6952 14.3587L11.5413 13.7463C11.7211 13.6161 11.9391 13.5495 12.161 13.5569L14.3581 13.6301C14.4823 13.6342 14.6046 13.6615 14.7187 13.7104L17.4423 14.8777C17.6283 14.9573 17.834 14.9788 18.0324 14.9391L21.9368 14.1582C22.1549 14.1146 22.3812 14.1449 22.5801 14.2444L23.6005 14.7545C23.9063 14.9074 24.269 14.8935 24.5622 14.7176L26.009 13.8495C26.2364 13.713 26.5087 13.6725 26.766 13.7368L27.8235 14.0012C28.0551 14.0591 28.2997 14.0322 28.5132 13.9255L29.5533 13.4054C29.8349 13.2647 30.1662 13.2647 30.4478 13.4054L31.3715 13.8673C31.653 14.0081 31.9844 14.0081 32.2659 13.8673L34.1755 12.9125C34.4127 12.7939 34.6873 12.7744 34.9389 12.8583L37.004 13.5466C37.7656 15.5521 38.1825 17.7274 38.1825 20C38.1825 23.8914 37.0826 25.6791 35.0007 28.6364C34.6886 29.0797 34.3993 29.6008 34.1039 30.1327C33.57 31.0943 33.0165 32.0912 32.2734 32.7273C30.9167 33.8888 28.9323 35.1843 27.2734 35.9091C26.4233 36.2805 25.8042 36.7658 25.2198 37.2239C24.2732 37.9658 23.4177 38.6364 21.8189 38.6364C20.3379 38.6364 18.6993 37.7667 17.1864 36.9638C16.4123 36.553 15.6711 36.1596 15.0007 35.9091C14.1012 35.573 13.0618 35.3409 12.004 35.1048C9.86524 34.6273 7.65102 34.1329 6.36435 32.7273C5.67437 31.9735 5.23043 30.8685 4.80197 29.802C4.57255 29.231 4.34756 28.671 4.09162 28.1818C2.77465 25.665 2.27344 23.0375 2.27344 20V19.9479C2.27342 18.3715 2.27341 16.8422 2.40516 15.3844C2.43202 15.3738 2.45846 15.3619 2.48441 15.349Z"
+        class="border"
+      />
+    </svg>
+    <svg class="top" viewBox="0 0 40 40">
+      <path
+        d="M2.48354 15.349L4.59801 14.2917C4.8535 14.164 5.15141 14.1516
+    5.41662 14.2577L7.01831 14.8984C7.18464 14.9649 7.3658 14.9855 7.54283
+    14.9581L10.2611 14.5369C10.4175 14.5126 10.566 14.4516 10.6943
+    14.3587L11.5404 13.7462C11.7203 13.6161 11.9383 13.5495 12.1601
+    13.5569L14.3573 13.6301C14.4814 13.6342 14.6037 13.6615 14.7179
+    13.7104L17.4415 14.8776C17.6274 14.9573 17.8331 14.9788 18.0315
+    14.9391L21.936 14.1582C22.154 14.1146 22.3804 14.1449 22.5793
+    14.2443L23.5996 14.7545C23.9054 14.9074 24.2681 14.8935 24.5613
+    14.7176L26.0081 13.8495C26.2355 13.713 26.5079 13.6725 26.7652
+    13.7368L27.8226 14.0012C28.0542 14.0591 28.2989 14.0322 28.5124
+    13.9255L29.5525 13.4054C29.834 13.2647 30.1654 13.2647 30.4469
+    13.4054L31.3706 13.8673C31.6522 14.0081 31.9835 14.0081 32.2651
+    13.8673L34.1746 12.9125C34.4119 12.7939 34.6865 12.7744 34.9381
+    12.8582L37.0031 13.5466C36.2194 11.4829 35.0709 9.59899 33.6362
+    7.97352C32.9893 7.24059 31.9489 6.79692 30.9296 6.36223C30.2705
+    6.08117 29.6202 5.80386 29.0908 5.45454C27.9994 4.73447 27.352 3.90444
+    26.7655 3.15232C25.8101 1.92737 25.016 0.909088 22.7271
+    0.909088C21.1576 0.909088 16.9072 1.89879 15.4544 2.27272C13.8709
+    2.68028 12.4734 3.68793 11.1332 4.6543C10.7517 4.92932 10.375 5.20099
+    9.99985 5.45454C9.44177 5.83176 8.78703 6.18085 8.11682
+    6.53818C6.76861 7.25699 5.35781 8.00919 4.5453 9.09091C3.15215 10.9457
+    2.61296 13.0755 2.4043 15.3844C2.43116 15.3737 2.4576 15.3619 2.48354
+    15.349Z"
+        class="background"
+      />
+      <path
+        d="M37.0054 13.5471L34.9387 12.8582C34.6871 12.7744 34.4125 12.7939 34.1753 12.9125L33.4863 13.257C33.2889 12.2066 32.9357 11.4763 32.6495 10.8845C32.3156 10.1943 32.0729 9.69248 32.2747 9.09091C32.3942 8.7345 32.4742 8.41811 32.5401 8.15761C32.7574 7.29872 32.821 7.04754 33.6383 7.97352C35.0731 9.59913 36.2217 11.4833 37.0054 13.5471Z"
+        class="shine"
+      />
+      <g class="dark">
+        <path
+          d="M2.48422 15.349L4.59869 14.2917C4.85418 14.164 5.15209 14.1516 5.4173 14.2577L7.01899 14.8984C7.18532 14.9649 7.36648 14.9855 7.54351 14.9581L8.48536 14.8121C8.49861 14.7554 8.50876 14.697 8.51555 14.6368C8.72171 12.8092 7.93822 11.779 6.19264 11.5821C5.9267 11.5521 5.58188 11.4566 5.21388 11.3547C4.39836 11.1289 3.46902 10.8716 3.03201 11.2256C2.4282 11.7146 2.26383 13.2482 2.15971 14.2195C2.15 14.3101 2.14082 14.3958 2.13185 14.4753C2.09176 14.8307 2.08909 15.1559 2.12364 15.4508C2.24892 15.4399 2.37129 15.4054 2.48422 15.349Z"
+        />
+        <path
+          d="M11.595 5.60576C11.6111 5.66603 11.6272 5.72623 11.6426 5.78632C11.982 7.11198 15.1873 7.27255 17.5074 6.67849C17.8453 6.59196 18.3494 6.50236 18.908 6.40306C20.2286 6.16832 21.8541 5.87939 22.3102 5.44876C22.9857 4.81094 23.1244 2.94564 22.9513 2.26955C22.6118 0.943882 19.2545 0.797761 16.9344 1.39182C15.8584 1.66731 12.5739 3.11801 11.928 3.68839C11.2442 4.29222 11.4207 4.95293 11.595 5.60576Z"
+        />
+      </g>
+      <path
+        d="M37.0031 13.5466C36.2194 11.4829 35.0709 9.59899 33.6362 7.97352C32.9893 7.24059 31.9489 6.79692 30.9296 6.36223C30.2705 6.08117 29.6202 5.80386 29.0908 5.45454C27.9994 4.73447 27.352 3.90444 26.7655 3.15232C25.8101 1.92737 25.016 0.909088 22.7271 0.909088C21.1576 0.909088 16.9072 1.89879 15.4544 2.27272C13.8709 2.68028 12.4734 3.68793 11.1332 4.6543C10.7517 4.92932 10.375 5.20099 9.99985 5.45454C9.44177 5.83176 8.78703 6.18085 8.11682 6.53818C6.76861 7.25699 5.35781 8.00919 4.5453 9.09091C3.15215 10.9457 2.61296 13.0755 2.4043 15.3844"
+        class="border"
+      />
+      <path
+        d="M2.27344 15.4573L4.59905 14.2944C4.85454 14.1667 5.15245 14.1543 5.41766 14.2604L7.01934 14.9011C7.18568 14.9676 7.36684 14.9882 7.54388 14.9608L10.262 14.5396C10.4184 14.5153 10.5669 14.4543 10.6951 14.3615L11.5415 13.7489C11.7213 13.6188 11.9393 13.5522 12.1611 13.5596L14.3583 13.6328C14.4825 13.6369 14.6048 13.6642 14.7189 13.7131L17.4425 14.8804C17.6284 14.96 17.8342 14.9815 18.0325 14.9418L21.937 14.1609C22.1551 14.1173 22.3814 14.1476 22.5803 14.2471L23.6006 14.7572C23.9064 14.9101 24.2692 14.8962 24.5623 14.7203L26.0092 13.8522C26.2366 13.7157 26.5089 13.6752 26.7662 13.7395L27.8237 14.0039C28.0552 14.0618 28.2999 14.0349 28.5134 13.9282L29.5535 13.4081C29.835 13.2674 30.1664 13.2674 30.4479 13.4081L31.3717 13.87C31.6532 14.0108 31.9846 14.0108 32.2661 13.87L34.1757 12.9152C34.4129 12.7966 34.6875 12.7771 34.9391 12.861L37.2734 13.6391"
+        class="crack"
+      />
+    </svg>
+    <div class="eye left">
+      <svg viewBox="0 0 10 10">
+        <path
+          d="M8.99929 4.99965C8.99929 7.20859 7.20859 8.99929 4.99964 8.99929C2.7907 8.99929 1 7.20859 1 4.99965C1 2.7907 2.7907 1 4.99964 1C7.20859 1 8.99929 2.7907 8.99929 4.99965Z"
+        />
+      </svg>
+    </div>
+    <div class="eye right">
+      <svg viewBox="0 0 10 10">
+        <path
+          d="M8.99929 4.99965C8.99929 7.20859 7.20859 8.99929 4.99964 8.99929C2.7907 8.99929 1 7.20859 1 4.99965C1 2.7907 2.7907 1 4.99964 1C7.20859 1 8.99929 2.7907 8.99929 4.99965Z"
+        />
+      </svg>
+    </div>
+    <svg class="mouth" viewBox="0 0 12 9">
+      <path
+        d="M6 8.5C3.4154 8.5 1.5 5.5 1.5 5.5H10.5C10.5 5.5 8.5846 8.5 6 8.5Z"
+      />
+    </svg>
+  </div><strong class="me-auto ms-md-3 ms-2 small fw-light montserrat">We use cookies to personalize your site experience and analyze the site traffic. Check out our&nbsp;<a class="fw-bold text-white" href="privacy-policy.html">privacy policy</a>.</strong></div><button class="btn btn-outline-light" data-bs-dismiss="toast">Okay</button>
         </div>
     </div><script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js" async></script>
+    <div class="mobile-menu-wrapper">
+        <div id="mobile-menu" class="mobile-menu">
+            <div id="mobile-menu-content" class="mobile-menu-content hide">
+                <div class="mobile-menu-lists">
+                    <ul class="list-unstyled">
+                        <li><a href="#app">App<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-apps">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <rect x="4" y="4" width="6" height="6" rx="1"></rect>
+                                    <rect x="4" y="14" width="6" height="6" rx="1"></rect>
+                                    <rect x="14" y="14" width="6" height="6" rx="1"></rect>
+                                    <line x1="14" y1="7" x2="20" y2="7"></line>
+                                    <line x1="17" y1="4" x2="17" y2="10"></line>
+                                </svg></a></li>
+                        <li><a href="#tokens">Tokens<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-circle-square">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <circle cx="9.5" cy="9.5" r="6.5"></circle>
+                                    <rect x="10" y="10" width="11" height="11" rx="2"></rect>
+                                </svg></a></li>
+                        <li><a href="#faq">FAQ<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-question-mark">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M8 8a3.5 3 0 0 1 3.5 -3h1a3.5 3 0 0 1 3.5 3a3 3 0 0 1 -2 3a3 4 0 0 0 -2 4"></path>
+                                    <line x1="12" y1="19" x2="12" y2="19.01"></line>
+                                </svg></a></li>
+                        <li><a href="https://linktr.ee/GoActionLabs" target="_blank">Linktr.ee<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-unlink">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5"></path>
+                                    <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5"></path>
+                                    <line x1="16" y1="21" x2="16" y2="19"></line>
+                                    <line x1="19" y1="16" x2="21" y2="16"></line>
+                                    <line x1="3" y1="8" x2="5" y2="8"></line>
+                                    <line x1="8" y1="3" x2="8" y2="5"></line>
+                                </svg></a></li>
+                        <li><a href="https://go-action.gitbook.io/goaction-whitepaper/" target="_blank">Whitepaper<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-file">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+                                    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
+                                </svg></a></li>
+                        <li><a href="https://blog.goaction.tech">Blog<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-file-text">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                    <path d="M14 3v4a1 1 0 0 0 1 1h4"></path>
+                                    <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z"></path>
+                                    <line x1="9" y1="9" x2="10" y2="9"></line>
+                                    <line x1="9" y1="13" x2="15" y2="13"></line>
+                                    <line x1="9" y1="17" x2="15" y2="17"></line>
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mobilemenu-buttons"><button class="btn btn-dark menubutton" id="menuopenbtn" type="button" onclick="mobileMenuopen()"><img class="goaction-icon-on-menu" width="28" height="28" src="assets/img/goaction-icon.svg"><span class="menu-close-btn">Close</span><span class="menu-open-btn">Menu</span><span class="menu-close-btn"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-lg">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"></path>
+                        </svg></span></button><a class="btn btn-dark gotohomemenubutton" role="button" id="menuopenbtn-1" onclick="mobileMenuopen()" href="home.html"><span class="d-flex align-items-center gap-3">Home</span><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-house home-icon">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"></path>
+                    </svg></a>
+                <div class="divider-vertical"></div><a role="button" class="menu-other-button" href="https://wa.me/+971585931003?text=Hello!" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-mail">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                        <polyline points="3 7 12 13 21 7"></polyline>
+                    </svg></a><a role="button" class="menu-other-button" href="mailto:contact@maoriz.com"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-telegram">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4"></path>
+                    </svg></a><a role="button" class="menu-other-button" href="mailto:contact@maoriz.com"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-discord">
+                        <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"></path>
+                    </svg></a>
+            </div>
+        </div>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/aos.min.js"></script>
@@ -755,6 +1625,7 @@ reduce carbon emissions to the nature.">
     <script src="assets/js/scroll-trigger.js"></script>
     <script src="assets/js/black-gradient.js"></script>
     <script src="assets/js/onload.js"></script>
+    <script src="assets/js/scroll-tabs.js"></script>
 </body>
 
 </html>

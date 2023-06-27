@@ -40,6 +40,58 @@ document.getElementById('menuiceriknew').style.height = "0";
 }
 
 
+
+var a = 0;
+var navmenu = document.getElementById("mobile-menu-content");
+var floatbutton = document.getElementById("menuopenbtn");
+var mobilemenu = document.getElementById("mobile-menu");
+
+
+function mobileMenuopen() {
+
+if (a == 0){
+  
+mobilemenu.classList.add("open");
+
+
+setTimeout(function(){ navmenu.classList.remove("hide");
+ }, 300);
+
+$(window).scroll(function(){
+  if($(this).scrollTop() > 100){
+   mobileMenuclose(); 
+  }
+});
+
+a = 1;
+/*
+$(window).scroll(function(){
+  if($(this).scrollTop() > 100){
+   mobileMenuclose(); 
+  }
+});*/
+
+}
+
+else
+{
+ mobileMenuclose();
+}
+
+}
+
+function mobileMenuclose() {
+a = 0;
+
+navmenu.classList.add("hide");
+mobilemenu.classList.remove("open");
+
+setTimeout(function(){ 
+ }, 300);
+
+}
+
+
 /*
 $('#mymenu
   ').click(function(){
