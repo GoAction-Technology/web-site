@@ -636,3 +636,9 @@ img {
   }
 }
 
+.footer-boring-links.links-list {
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  z-index: 99999999;
+}
+
