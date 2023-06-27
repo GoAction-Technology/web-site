@@ -859,7 +859,7 @@ body {
 
 .nav-logo-cont {
   position: absolute;
-  top: 1rem;
+  top: 2rem;
   left: 50%;
   transform: translateX(-50%);
 }
