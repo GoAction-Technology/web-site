@@ -639,6 +639,16 @@ img {
 .footer-boring-links.links-list {
   padding-top: .5rem;
   padding-bottom: .5rem;
-  z-index: 99999999;
+  z-index: 3;
+}
+
+@media (min-width: 768px) {
+  .header-image-wrapper {
+    justify-content: start;
+  }
+}
+
+.header-image-wrapper {
+  justify-content: center;
 }
 
