@@ -917,3 +917,8 @@ body {
   }
 }
 
+.formFooter {
+  display: none!important;
+  height: 0px!important;
+}
+
