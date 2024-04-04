@@ -35,7 +35,6 @@
 }
 
 #scroll-down::before {
-  -webkit-animation: elasticus 2.9s cubic-bezier(1, 0, 0, 1) infinite;
   -moz-animation: elasticus 2.9s cubic-bezier(1, 0, 0, 1) infinite;
   -o-animation: elasticus 2.9s cubic-bezier(1, 0, 0, 1) infinite;
   animation: elasticus 2.9s cubic-bezier(1, 0, 0, 1) infinite;

@@ -12,20 +12,13 @@
 
 .loader {
   position: fixed;
+  top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.34);
+  background: black;
   color: white;
   z-index: 999999999;
-  padding: 3rem;
-  border-radius: 0;
-  /*left: 0;*/
-  /*top: 0;*/
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  z-index: -9;
-  opacity: 0;
-  pointer-events: none;
 }
 
 .demo-wrapper {
