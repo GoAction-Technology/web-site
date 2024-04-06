@@ -32,12 +32,14 @@
 }
 
 .demo-text .textt {
-  font-size: clamp(4rem, 10vw, 16rem);
+  font-size: clamp(4rem, 8vw, 16rem);
   line-height: 1;
   font-weight: 900;
   /*padding: 16px 0;*/
   color: rgba(0,30,14,0.81);
   -webkit-text-stroke: 1px #21965a;
   -webkit-text-fill-color: rgba(0,30,14,0.81);
+  white-space: nowrap;
 }
+
 

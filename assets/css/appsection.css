@@ -215,14 +215,18 @@
 
 .socialiconlist li a {
   text-decoration: none;
-  padding: .5rem .7rem;
   background: linear-gradient(118deg, rgba(33,150,90,0.1), rgba(0,178,194,0.2));
-  font-family: 'Aquire';
-  border-radius: 0;
+  font-family: 'Aquire', sans-serif;
   display: flex;
   align-items: center;
   transition-duration: .2s;
+
+  font-size: 1.4rem;
+  border-radius: 26px;
+  padding: 11px!important;
 }
+
+
 
 @media (max-width: 768px) {
   .appsecparagraph, .appsecminiheading, .appsecheading {
@@ -238,11 +242,6 @@
   overflow-y: hidden;
 }
 
-@media (min-width: 768px) {
-  .socialiconlist svg {
-    margin-right: .5rem;
-  }
-}
 
 .socialiconlist li a span {
   background: linear-gradient(to right, #21965a 0%, #00b2c2 100%);
@@ -267,13 +266,6 @@
   }
 }
 
-@media (max-width: 768px) {
-  .socialiconlist li a {
-    font-size: 1.4rem;
-    border-radius: 26px;
-    padding: 11px!important;
-  }
-}
 
 #toast-1 {
   position: fixed;

@@ -442,8 +442,9 @@ body {
 }
 
 .socialiconlist {
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
+  gap: 1rem;
 }
 
 @media (min-width: 768px) {
