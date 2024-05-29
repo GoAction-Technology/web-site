@@ -16,7 +16,8 @@
 
 .features .baslik {
   text-align: left;
-  font-family: 'Aquire';
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
   margin-top: 2rem;
   margin-bottom: 1rem;
   /*min-height: 62px;*/
@@ -61,7 +62,7 @@ img, svg {
 }
 
 .myinputt {
-  padding: .375rem .75rem;
+  padding: .75rem .75rem;
   font-size: 1rem;
   background-clip: padding-box;
   background: linear-gradient(118deg, rgba(0,178,194,0.3), rgba(33,150,90,0.25));
@@ -69,10 +70,10 @@ img, svg {
   color: #fff!important;
   font-family: 'Aquire';
   opacity: 1;
+  border-radius: 2rem;
 }
 
 .mybutton {
-  border-radius: 0;
   background: linear-gradient(118deg, rgba(33,150,90,0.25), rgba(0,178,194,0.3));
   border-color: #21965a;
   color: #ffffff;
@@ -80,7 +81,6 @@ img, svg {
 }
 
 .mybutton:hover {
-  border-radius: 0;
   background: linear-gradient(to right, rgba(33,150,90,0.7) 0%, rgba(0,178,194,0.7) 100%);
   border-color: #21965a;
   color: #ffffff;

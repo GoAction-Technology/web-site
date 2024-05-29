@@ -401,6 +401,12 @@
   margin-right: auto;
 }
 
+.partners-row .col {
+ display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .partners-row img, .partners-row svg {
   margin: auto!important;
 }
